@@ -55,7 +55,7 @@
                 blogs: [
                     {
                         imgSrc: "/images/blog/01.jpg",
-                        title: "We work in the fields of UI/UX design and art direction.",
+                        title: "The Second Resurrection of Classes Has Come!",
                         excerpt: "Lorem Ipsum is simply dummy text the printing and typesetting industry. Lorem Ipsum has been the industry's standard printer.",
                         date: "21 March, 2021",
                         comment: 2566,
@@ -64,7 +64,7 @@
                     },
                     {
                         imgSrc: "/images/blog/02.jpg",
-                        title: "printing and type setting industry has been printer.",
+                        title: "Meet This Month's Curator: Pokras Lompas!",
                         excerpt: "Lorem Ipsum is simply dummy text the printing and typesetting industry. Lorem Ipsum has been the industry's standard printer.",
                         date: "17 June, 2021",
                         comment: 3345,
@@ -73,7 +73,7 @@
                     },
                     {
                         imgSrc: "/images/blog/03.jpg",
-                        title: "We work in the fields of UI/UX design and art direction.",
+                        title: "UI vs UX Design: Which career is for you? (2021).",
                         excerpt: "Lorem Ipsum is simply dummy text the printing and typesetting industry. Lorem Ipsum has been the industry's standard printer.",
                         date: "28 May, 2021",
                         comment: 1450,

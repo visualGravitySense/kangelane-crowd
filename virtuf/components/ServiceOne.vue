@@ -4,13 +4,13 @@
             <div class="row">
                 <div class="col-lg-8 col-xl-6 m-auto">
                     <div class="section-title text-center" data-aos="fade-up" data-aos-duration="1000">
-                        <h2 class="title">What We Do?</h2>
+                        <h2 class="title">Kangelane It's easy, start now</h2>
                         <div class="separator-line mt-14">
                             <img class="me-1" src="/images/shape/line-s2.png" alt="Images">
                             <img src="/images/shape/line-s1.png" alt="Images">
                         </div>
                         <div class="desc">
-                            <p class="mt-21">Kangelane is the easy way to find & showcase creative work and home for the marketers, creators, and developers. Our services:</p>
+                            <p class="mt-21">Kangelane is the easy way to find & showcase creative work and home for the marketers, creators, and developers.</p>
                         </div>
                     </div>
                 </div>

@@ -81,13 +81,13 @@ Anna: спросить рекомендацию
                     {
                         name: "Anna Curly",
                         designation: "Artist",
-                        imgSrc: "/images/icons/t1.png",
-                        desc: "Great designers and web developers team building a beautiful websites. I ordered three years ago and the site still looks very modern and stylish. Thank you very much!"
+                        imgSrc: "/images/icons/tt1.png",
+                        desc: "Great designers and web developers team who building a beautiful websites. I ordered three years ago and the site still looks very modern and stylish. Thank you very much!"
                     },
                     {
                         name: "Nikolai Nedvedski",
                         designation: "Chief of a construction company",
-                        imgSrc: "/images/icons/t1.png",
+                        imgSrc: "/images/icons/tt2.png",
                         desc: "The guys from this company immediately impressed me with their interesting vision and unusual approach to work. I try to solve all issues related to digital media or advertising through them whenever possible."
                     }
                 ]

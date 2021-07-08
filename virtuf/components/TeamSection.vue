@@ -44,8 +44,8 @@
                                             <!-- Start Progress Item -->
                                             <div class="progress-item">
                                                 <div class="progress-line">
-                                                    <div class="progress-bar-line" style="width: 75%">
-                                                        <span class="percent">80%</span>
+                                                    <div class="progress-bar-line" style="width: 90%">
+                                                        <span class="percent">90%</span>
                                                     </div>
                                                 </div>
                                                 <div class="progress-info">
@@ -110,8 +110,8 @@
                                             <!-- Start Progress Item -->
                                             <div class="progress-item">
                                                 <div class="progress-line">
-                                                    <div class="progress-bar-line" style="width: 80%">
-                                                        <span class="percent">80%</span>
+                                                    <div class="progress-bar-line" style="width: 90%">
+                                                        <span class="percent">90%</span>
                                                     </div>
                                                 </div>
                                                 <div class="progress-info">
@@ -126,6 +126,74 @@
                                         <img class="shape-style3" src="/images/shape/10.png" alt="Image">
                                     </div>
                                 </div>
+
+                              <!--                              Team Member 4-->
+
+                              <div class="swiper-slide team-member">
+                                <div class="thumb">
+                                  <img src="/images/team/4.jpg" alt="Image">
+                                </div>
+                                <div class="content">
+                                  <div class="member-info">
+                                    <div class="separator-line">
+                                      <img src="/images/shape/line-s1.png" alt="Images">
+                                    </div>
+                                    <h4 class="name">Sergei Dragunov</h4>
+                                    <h6 class="designation">Creative Director</h6>
+                                    <!-- Start Progress Item -->
+                                    <div class="progress-item">
+                                      <div class="progress-line">
+                                        <div class="progress-bar-line" style="width: 90%">
+                                          <span class="percent">90%</span>
+                                        </div>
+                                      </div>
+                                      <div class="progress-info">
+                                        <span class="title">Professional Skill</span>
+                                      </div>
+                                    </div>
+                                  </div>
+                                </div>
+                                <div class="shape-style">
+                                  <img class="shape-style1" src="/images/shape/8.png" alt="Image">
+                                  <img class="shape-style2" src="/images/shape/9.png" alt="Image">
+                                  <img class="shape-style3" src="/images/shape/10.png" alt="Image">
+                                </div>
+                              </div>
+
+                              <!--                              Team Member 5-->
+
+                              <div class="swiper-slide team-member">
+                                <div class="thumb">
+                                  <img src="/images/team/5.jpg" alt="Image">
+                                </div>
+                                <div class="content">
+                                  <div class="member-info">
+                                    <div class="separator-line">
+                                      <img src="/images/shape/line-s1.png" alt="Images">
+                                    </div>
+                                    <h4 class="name">Stanislav Usov</h4>
+                                    <h6 class="designation">Senior Designer</h6>
+                                    <!-- Start Progress Item -->
+                                    <div class="progress-item">
+                                      <div class="progress-line">
+                                        <div class="progress-bar-line" style="width: 90%">
+                                          <span class="percent">90%</span>
+                                        </div>
+                                      </div>
+                                      <div class="progress-info">
+                                        <span class="title">Professional Skill</span>
+                                      </div>
+                                    </div>
+                                  </div>
+                                </div>
+                                <div class="shape-style">
+                                  <img class="shape-style1" src="/images/shape/8.png" alt="Image">
+                                  <img class="shape-style2" src="/images/shape/9.png" alt="Image">
+                                  <img class="shape-style3" src="/images/shape/10.png" alt="Image">
+                                </div>
+                              </div>
+
+
                             </swiper>
                         </div>
                     </div>

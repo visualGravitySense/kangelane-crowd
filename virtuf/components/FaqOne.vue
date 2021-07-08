@@ -11,7 +11,7 @@
                             <AccordionStyleOne />
                         </div>
                         <div class="text-center">
-                            <a href="#" class="btn btn-theme btn-white btn-border">Click For Others Question & Answer <i class="icon icofont-long-arrow-right"></i></a>
+                            <a href="" class="btn btn-theme btn-white btn-border">Click For Others Question & Answer <i class="icon icofont-long-arrow-right"></i></a>
                         </div>
                     </div>
                 </div>
@@ -40,3 +40,10 @@
         },
     };
 </script>
+
+
+<!--Concept of the main page - $500-->
+<!--Corporate Website Design - $3750-->
+<!--e-commerce design - $3750-->
+<!--Landing Page - $1600-->
+<!--Branding - $3300-->

@@ -9,7 +9,7 @@
 
         <AboutOne />
 
-        <FunFactOne />
+        <AboutTwo />
 
         <ServiceOne />
 

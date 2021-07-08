@@ -22,7 +22,8 @@
                     <div class="portfolio-slider-content" data-aos="fade-up" data-aos-duration="1000">
                         <div class="swiper-container portfolio-slider-container">
                             <swiper :options="portfolioSliderContainer">
-                                <div class="swiper-slide portfolio-item">
+
+                              <div class="swiper-slide portfolio-item">
                                     <div class="inner-content">
                                         <div class="thumb" :style="{ backgroundImage: `url('/images/portfolio/s2.jpg')` }">
                                             <n-link to="/portfolio-details"></n-link>
@@ -39,6 +40,7 @@
                                         </div>
                                     </div>
                                 </div>
+
                                 <div class="swiper-slide portfolio-item">
                                     <div class="inner-content">
                                         <div class="thumb" :style="{ backgroundImage: `url('/images/portfolio/s3.jpg')` }">
@@ -56,6 +58,7 @@
                                         </div>
                                     </div>
                                 </div>
+
                                 <div class="swiper-slide portfolio-item">
                                     <div class="inner-content">
                                         <div class="thumb" :style="{ backgroundImage: `url('/images/portfolio/s1.jpg')` }">
@@ -73,6 +76,44 @@
                                         </div>
                                     </div>
                                 </div>
+
+                                <div class="swiper-slide portfolio-item">
+                                  <div class="inner-content">
+                                    <div class="thumb" :style="{ backgroundImage: `url('/images/portfolio/s4.jpg')` }">
+                                      <n-link to="/portfolio-details"></n-link>
+                                    </div>
+                                    <div class="portfolio-info">
+                                      <div class="content">
+                                        <img class="shape-line-img" src="/images/shape/line-s1.png" alt="Virtuf-HasTech">
+                                        <h3 class="title">
+                                          <n-link to="/portfolio-details">Branding: Logo Design</n-link>
+                                        </h3>
+                                        <n-link to="/portfolio-details" class="category">Graphic  / Marketing</n-link>
+                                      </div>
+                                      <n-link to="/portfolio-details" class="btn btn-theme btn-border btn-portfolio">View Details <i class="icon icofont-long-arrow-right"></i></n-link>
+                                    </div>
+                                  </div>
+                                </div>
+
+                                <div class="swiper-slide portfolio-item">
+                                  <div class="inner-content">
+                                    <div class="thumb" :style="{ backgroundImage: `url('/images/portfolio/s5.jpg')` }">
+                                      <n-link to="/portfolio-details"></n-link>
+                                    </div>
+                                    <div class="portfolio-info">
+                                      <div class="content">
+                                        <img class="shape-line-img" src="/images/shape/line-s1.png" alt="Virtuf-HasTech">
+                                        <h3 class="title">
+                                          <n-link to="/portfolio-details">Graphic Design: Product Mockup</n-link>
+                                        </h3>
+                                        <n-link to="/portfolio-details" class="category">Graphic  / Marketing</n-link>
+                                      </div>
+                                      <n-link to="/portfolio-details" class="btn btn-theme btn-border btn-portfolio">View Details <i class="icon icofont-long-arrow-right"></i></n-link>
+                                    </div>
+                                  </div>
+                                </div>
+
+
                             </swiper>
                         </div>
                     </div>

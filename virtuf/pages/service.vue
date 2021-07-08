@@ -5,9 +5,9 @@
 
         <OffCanvasMobileMenu />
 
-        <PageTitle title="Services" breadcrumbTitle="Services" />
+        <PageTitle title="User Profile" breadcrumbTitle="User Profile" />
 
-        <ServiceWrapper />
+        <UserWrapper />
 
         <ContactDevider />
 

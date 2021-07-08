@@ -7,13 +7,17 @@
                         <i class="icon icofont-plus"></i>
                         <i class="icon icofont-minus"></i>
                     </span>
-                    How to get busineses services?
+                  How can start fundraising on Kangelane?
                 </b-button>
             </b-card-header>
             <b-collapse id="accordion-1" visible accordion="my-accordion">
                 <b-card-body>
                     <b-card-text>
-                        Lorem Ipsum is simply dummy text of the printing and typesetting industry has industry's standard dummy text ever since the 1500s, when an unknown printer took of type and scrambled it to make a type specimen book. It has survived not only centuries, but also the leap into electronic.
+                      That depends upon the task, but average decision accept time is 1-2 days.
+                      Minimum price for the separate project slot is 1€ (euro). The amount of slots is
+                      unlimited, but to have many slots can break the focus.
+                      And if you don't know how to start -
+                      we have also support team.
                     </b-card-text>
                 </b-card-body>
             </b-collapse>
@@ -25,13 +29,15 @@
                         <i class="icon icofont-plus"></i>
                         <i class="icon icofont-minus"></i>
                     </span>
-                    How can start digital marketing business?
+                    How to get business services?
                 </b-button>
             </b-card-header>
             <b-collapse id="accordion-2" visible accordion="my-accordion">
                 <b-card-body>
                     <b-card-text>
-                        Lorem Ipsum is simply dummy text of the printing and typesetting industry has industry's standard dummy text ever since the 1500s, when an unknown printer took of type and scrambled it to make a type specimen book. It has survived not only centuries, but also the leap into electronic.
+                      First step is intro request. After that manager or designer shall draw low fidelity wireframe
+                      for the solution and get it approved. Then we shall create product based on the
+                      wireframe and make it shine.
                     </b-card-text>
                 </b-card-body>
             </b-collapse>
@@ -43,13 +49,13 @@
                         <i class="icon icofont-plus"></i>
                         <i class="icon icofont-minus"></i>
                     </span>
-                    How to get easily client from online marketplace?
+                  How can i payment your product?
                 </b-button>
             </b-card-header>
             <b-collapse id="accordion-3" visible accordion="my-accordion">
                 <b-card-body>
                     <b-card-text>
-                        Lorem Ipsum is simply dummy text of the printing and typesetting industry has industry's standard dummy text ever since the 1500s, when an unknown printer took of type and scrambled it to make a type specimen book. It has survived not only centuries, but also the leap into electronic.
+                      All services are invoiced from a legal entity and paid to a bank account.
                     </b-card-text>
                 </b-card-body>
             </b-collapse>
@@ -61,13 +67,13 @@
                         <i class="icon icofont-plus"></i>
                         <i class="icon icofont-minus"></i>
                     </span>
-                    How can i payment your product?
+                  Where are you located?
                 </b-button>
             </b-card-header>
             <b-collapse id="accordion-4" visible accordion="my-accordion">
                 <b-card-body>
                     <b-card-text>
-                        Lorem Ipsum is simply dummy text of the printing and typesetting industry has industry's standard dummy text ever since the 1500s, when an unknown printer took of type and scrambled it to make a type specimen book. It has survived not only centuries, but also the leap into electronic.
+                      We are a diverse team, but our headquarters is in Helsinki and Tallinn.
                     </b-card-text>
                 </b-card-body>
             </b-collapse>
