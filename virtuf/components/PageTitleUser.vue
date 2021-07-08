@@ -1,13 +1,12 @@
 <template>
-    <section class="page-title-area" :style="{ backgroundImage: `url('/images/photos/bg-page-title.jpg')` }">
+    <section class="page-title-area" :style="{ backgroundImage: `url('/images/photos/bg-page-title-user.jpg')` }">
         <div class="container">
             <div class="row">
                 <div class="col-lg-12">
                     <div class="page-title-content">
                         <h2 class="title text-white">{{ title }}</h2>
                         <div class="bread-crumbs"><img class="line-shape" src="/images/shape/line-s3.png" alt="shape">
-                            <n-link to="/"> Home <span class="breadcrumb-sep">/</span></n-link>
-                            <span class="active">{{ breadcrumbTitle }}</span>
+                            <p>is creating worlds made of words</p>
                         </div>
                       <slot       />
                     </div>

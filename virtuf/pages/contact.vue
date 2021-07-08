@@ -9,7 +9,7 @@
 
         <ContactWrapper />
 
-        <FooterTwo />
+        <Footer />
 
         <client-only>
             <back-to-top class="scroll-top" bottom="30px">

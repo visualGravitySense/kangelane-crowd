@@ -5,7 +5,11 @@
 
         <OffCanvasMobileMenu />
 
-        <PageTitle title="User Profile" breadcrumbTitle="User Profile" />
+        <PageTitleUser title="User Profile" breadcrumbTitle="User Profile" />
+
+        <div class="blog-page-wrapper">
+          <CourseWrapperUser />
+        </div>
 
         <UserWrapper />
 
@@ -21,6 +25,8 @@
         </client-only>
 
     </div>
+
+
 </template>
 
 <script>
@@ -31,6 +37,7 @@
             PageTitle: () => import('@/components/PageTitle'),
             ServiceWrapper: () => import('@/components/ServiceWrapper'),
             ContactDevider: () => import('@/components/ContactDevider'),
+            CourseWrapperUser: () => import('@/components/Courses/CourseWrapperUser'),
             Footer: () => import('@/components/Footer'),
         },
 

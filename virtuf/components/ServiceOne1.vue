@@ -35,32 +35,32 @@
                 services: [
                     {
                         icon: "/images/icons/s1.png",
-                        title: "Graphics & Design",
+                        title: "Web Development",
                         desc: "Lorem Ipsum is simply dummy text the printing and typesetting industry has been the industry's standard."
                     },
                     {
                         icon: "/images/icons/s2.png",
-                        title: "Music & Audio",
+                        title: "Market Analysis",
                         desc: "Lorem Ipsum is simply dummy text the printing and typesetting industry has been the industry's standard."
                     },
                     {
                         icon: "/images/icons/s3.png",
-                        title: "Programming & Tech",
+                        title: "Brand Identity",
                         desc: "Lorem Ipsum is simply dummy text the printing and typesetting industry has been the industry's standard."
                     },
                     {
                         icon: "/images/icons/s4.png",
-                        title: "Digital Marketing",
+                        title: "Business Consultation",
                         desc: "Lorem Ipsum is simply dummy text the printing and typesetting industry has been the industry's standard."
                     },
                     {
                         icon: "/images/icons/s5.png",
-                        title: "Business",
+                        title: "SEO Marketing",
                         desc: "Lorem Ipsum is simply dummy text the printing and typesetting industry has been the industry's standard."
                     },
                     {
                         icon: "/images/icons/s6.png",
-                        title: "Writing & Translation",
+                        title: "UX & UI Design",
                         desc: "Lorem Ipsum is simply dummy text the printing and typesetting industry has been the industry's standard."
                     },
                 ]
