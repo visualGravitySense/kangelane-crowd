@@ -55,7 +55,7 @@
                                 <p class="mb-0">You provide the vision, we provide the solution. Having launched our own startups and with 50+ successful projects on our resume. We are passionate about creating products with a strong visual identity and strong functionality under the hood.</p>
                                 <div class="inline-style">
                                     <a href="#" class="btn btn-theme btn-border">
-                                        Team Members 
+                                        Team Members
                                         <i class="icon icofont-long-arrow-right"></i>
                                     </a>
                                 </div>

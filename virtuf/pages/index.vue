@@ -9,21 +9,19 @@
 
         <AboutOne />
 
-        <AboutTwo />
-
         <ServiceOne />
 
         <FaqOne />
 
-        <TeamSection class="team-default-area" />
+        <LectorsSection class="team-default-area" />
 
-        <PortfolioSection />
+<!--        <PortfolioSection />-->
 
-        <TestimonialOne />
+<!--        <TestimonialOne />-->
 
-        <BrandLogoSection />
+<!--        <BrandLogoSection />-->
 
-        <BlogSection />
+<!--        <BlogSection />-->
 
         <ContactDevider />
 
@@ -49,7 +47,7 @@
             FunFactOne: () => import('@/components/FunFactOne'),
             ServiceOne: () => import('@/components/ServiceOne'),
             FaqOne: () => import('@/components/FaqOne'),
-            TeamSection: () => import('@/components/TeamSection'),
+            LectorsSection: () => import('@/components/LectorsSection'),
             PortfolioSection: () => import('@/components/PortfolioSection'),
             TestimonialOne: () => import('@/components/TestimonialOne'),
             BrandLogoSection: () => import('@/components/BrandLogoSection'),

@@ -9,14 +9,14 @@
                             <div class="content">
                                 <div class="subtitle-content">
                                     <img src="/images/shape/line2.png" alt="Images">
-                                    <h6>For Creators</h6>
+                                    <h6>For Lectors</h6>
                                 </div>
                                 <div class="tittle-wrp">
-                                    <h2>Fundraising platform for <span>Creators.</span></h2>
+                                    <h2>Fundraising platform for <span>Classes.</span></h2>
 
                                 </div>
-                                <p>Support your creative work with a monthly subscription.</p>
-                                <n-link to="/creators" class="btn btn-theme btn-theme-color2">For Creators <i class="icon icofont-long-arrow-right"></i></n-link>
+                                <p>Support your educational work with a monthly subscription.</p>
+                                <n-link to="/creators" class="btn btn-theme btn-theme-color2">For Lectors <i class="icon icofont-long-arrow-right"></i></n-link>
                             </div>
                             <div class="layer-style">
                                 <div class="thumb">
@@ -60,9 +60,9 @@
                                     <h6>For Business</h6>
                                 </div>
                                 <div class="tittle-wrp">
-                                    <h2>Easy To Start Own <span>Business.</span></h2>
+                                    <h2>The Diverse Path to <span>Business Success.</span></h2>
                                 </div>
-                                <p>Find the perfect service for your business.</p>
+                                <p>Find the perfect classes for your business.</p>
                                 <n-link to="/service" class="btn btn-theme btn-theme-color2">All Services <i class="icon icofont-long-arrow-right"></i></n-link>
                             </div>
                             <div class="layer-style">

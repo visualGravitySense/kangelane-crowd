@@ -34,32 +34,32 @@
             return {
                 services: [
                     {
-                        icon: "/images/icons/s1.png",
+                        icon: "/images/icons/as1.png",
                         title: "Graphics & Design",
                         desc: "Lorem Ipsum is simply dummy text the printing and typesetting industry has been the industry's standard."
                     },
                     {
-                        icon: "/images/icons/s2.png",
+                        icon: "/images/icons/as2.png",
                         title: "Music & Audio",
                         desc: "Lorem Ipsum is simply dummy text the printing and typesetting industry has been the industry's standard."
                     },
                     {
-                        icon: "/images/icons/s3.png",
+                        icon: "/images/icons/as3.png",
                         title: "Programming & Tech",
                         desc: "Lorem Ipsum is simply dummy text the printing and typesetting industry has been the industry's standard."
                     },
                     {
-                        icon: "/images/icons/s4.png",
+                        icon: "/images/icons/as4.png",
                         title: "Digital Marketing",
                         desc: "Lorem Ipsum is simply dummy text the printing and typesetting industry has been the industry's standard."
                     },
                     {
-                        icon: "/images/icons/s5.png",
+                        icon: "/images/icons/as5.png",
                         title: "Business",
                         desc: "Lorem Ipsum is simply dummy text the printing and typesetting industry has been the industry's standard."
                     },
                     {
-                        icon: "/images/icons/s6.png",
+                        icon: "/images/icons/as6.png",
                         title: "Writing & Translation",
                         desc: "Lorem Ipsum is simply dummy text the printing and typesetting industry has been the industry's standard."
                     },

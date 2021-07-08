@@ -64,28 +64,27 @@
                 </div>
                 <div class="col-md-8 col-lg-6 col-xl-6">
                     <div class="widget-item menu-wrap-two-column">
-                        <h4 class="widget-title">All Services</h4>
+                        <h4 class="widget-title">All Categories</h4>
                         <img class="line-shape" src="/images/shape/line-s1.png" alt="shape">
                         <nav class="widget-menu-wrap">
                             <div class="row">
                                 <div class="col-md-6">
                                     <ul class="nav-menu nav">
-                                        <li><n-link to="/service-details">Business Management</n-link></li>
-                                        <li><n-link to="/service-details">Web Development</n-link></li>
-                                        <li><n-link to="/service-details">Business Consultation</n-link></li>
+                                        <li><n-link to="/service-details">Business</n-link></li>
+                                        <li><n-link to="/service-details">Programming & Tech</n-link></li>
                                         <li><n-link to="/service-details">Digital Marketing</n-link></li>
-                                        <li><n-link to="/service-details">Brand Identity</n-link></li>
-                                        <li><n-link to="/service-details">Insurance & Banking</n-link></li>
+                                        <li><n-link to="/service-details">Graphics & Design</n-link></li>
+                                        <li><n-link to="/service-details">Data</n-link></li>
+
                                     </ul>
                                 </div>
                                 <div class="col-md-6">
                                     <ul class="nav-menu nav">
-                                        <li><n-link to="/service-details">Website Optimization</n-link></li>
-                                        <li><n-link to="/service-details">Social Media Marketing</n-link></li>
-                                        <li><n-link to="/service-details">Link Building Services</n-link></li>
-                                        <li><n-link to="/service-details">Pay Per Click Advertising</n-link></li>
-                                        <li><n-link to="/service-details">Search Engine Marketing</n-link></li>
-                                        <li><n-link to="/service-details">Content Marketing</n-link></li>
+                                        <li><n-link to="/service-details">Music & Audio</n-link></li>
+                                        <li><n-link to="/service-details">Video & Animation</n-link></li>
+                                        <li><n-link to="/service-details">Writing & Translation</n-link></li>
+                                        <li><n-link to="/service-details">Consulting</n-link></li>
+                                        <li><n-link to="/service-details">Lifestyle</n-link></li>
                                     </ul>
                                 </div>
                             </div>
@@ -94,7 +93,7 @@
                 </div>
                 <div class="col-md-4 col-lg-2 col-xl-2 lg-pr-0">
                     <div class="widget-item menu-wrap-column">
-                        <h4 class="widget-title">Useful Links</h4>
+                        <h4 class="widget-title">About</h4>
                         <img class="line-shape" src="/images/shape/line-s1.png" alt="Virtuf-HasTech">
                         <nav class="widget-menu-wrap">
                             <ul class="nav-menu nav">

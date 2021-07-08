@@ -12,14 +12,14 @@
                         </div>
                         <ShapeWithAnimation addClassName="shape-style2" imgSrc="/images/shape/circle-shape1.png" data-depth=".6" />
                         <div class="experience-time">
-                            <div class="content">10<sup>+</sup> <span>Years of Experience</span></div>
+                            <div class="content">100<sup>+</sup> <span>Lectors on Kangelane</span></div>
                         </div>
                     </div>
                 </div>
                 <div class="col-lg-6 offset-lg-1">
                     <div class="about-content">
                         <div class="section-title xs-text-center" data-aos="fade-up" data-aos-duration="1000">
-                            <h2 class="title">We Have Leadership Strong <span class="bottom-style">Experience</span> In Business.</h2>
+                            <h2 class="title">What's  <span class="bottom-style">Kengelane?</span></h2>
                             <div class="desc">
                                 <p class="mt-20">On Kangelane, you can find your business needs and be
                                   <u class="text-theme-color2">a part of creative community in Estonia.</u>
