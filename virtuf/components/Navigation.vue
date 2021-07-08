@@ -2,19 +2,28 @@
     <ul class="main-menu nav justify-content-center">
 
         <li>
-            <n-link to="/course">Courses</n-link>
+            <n-link to="/classes">Classes</n-link>
         </li>
 
-      <!--Hire service-->
+          <li>
+            <n-link to="/market">Marketplace</n-link>
+          </li>
 
-        <!--<li>-->
-            <!--<n-link to="/hire">Hire</n-link>-->
-        <!--</li>-->
+<!--        <li>-->
+<!--            <n-link to="/prints">Prints</n-link>-->
+<!--        </li>-->
 
+<!--      <li>-->
+<!--        <n-link to="/classes">Studios</n-link>-->
+<!--      </li>-->
 
-        <li>
-            <n-link to="/about">About</n-link>
-        </li>
+      <li>
+        <n-link to="/course">Jobs</n-link>
+      </li>
+
+      <li>
+        <n-link to="/prints">Chalenges</n-link>
+      </li>
 
 
 
@@ -72,8 +81,10 @@
             <!--</ul>-->
         <!--</li>-->
 
-        <li>
-            <n-link to="/contact">Contact</n-link>
-        </li>
+<!--        <li>-->
+<!--            <n-link to="/contact">Contact</n-link>-->
+<!--        </li>-->
+
+
     </ul>
 </template>

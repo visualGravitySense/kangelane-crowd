@@ -12,17 +12,17 @@
                                     <h6>For Lectors</h6>
                                 </div>
                                 <div class="tittle-wrp">
-                                    <h2>Fundraising platform for <span>Classes.</span></h2>
+                                    <h2>Unlimited Learning for <span>Business.</span></h2>
 
                                 </div>
-                                <p>Support your educational work with a monthly subscription.</p>
-                                <n-link to="/creators" class="btn btn-theme btn-theme-color2">For Lectors <i class="icon icofont-long-arrow-right"></i></n-link>
+                                <p>Get the skills you need for as little as €12.99. Sale ends today.</p>
+                                <n-link to="/creators" class="btn btn-theme btn-theme-color2">Get started <i class="icon icofont-long-arrow-right"></i></n-link>
                             </div>
                             <div class="layer-style">
                                 <div class="thumb">
                                     <img src="/images/slider/1.jpg" alt="Images">
                                 </div>
-                                <div class="success-rate"><div class="content">100%<span>Get Discovered Today</span></div></div>
+                                <div class="success-rate"><div class="content">100+<span>Lectors in</span></div></div>
                                 <div class="trusted-clients-content">
                                     <span>Already <br>here</span>
                                     <ul class="clients-list">
@@ -51,6 +51,54 @@
                         </div>
                     </div>
                     <!-- End Slide Item -->
+                  <!-- Start Slide Item -->
+                  <div class="swiper-slide home-slider-item" :style="{ backgroundImage: `url('/images/slider/bg1.jpg')` }">
+                    <div class="slider-content-area">
+                      <div class="content">
+                        <div class="subtitle-content">
+                          <img src="/images/shape/line2.png" alt="Images">
+                          <h6>For Lectors</h6>
+                        </div>
+                        <div class="tittle-wrp">
+                          <h2>Fundraising platform for <span>Classes.</span></h2>
+
+                        </div>
+                        <p>Support your educational work with a monthly subscription.</p>
+                        <n-link to="/creators" class="btn btn-theme btn-theme-color2">For Lectors <i class="icon icofont-long-arrow-right"></i></n-link>
+                      </div>
+                      <div class="layer-style">
+                        <div class="thumb">
+                          <img src="/images/slider/1.jpg" alt="Images">
+                        </div>
+                        <div class="success-rate"><div class="content">100%<span>Get Discovered Today</span></div></div>
+                        <div class="trusted-clients-content">
+                          <span>Already <br>here</span>
+                          <ul class="clients-list">
+                            <li><img src="/images/testimonial/clients1.png" alt="Images"></li>
+                            <li><img src="/images/testimonial/clients2.png" alt="Images"></li>
+                            <li><img src="/images/testimonial/clients3.png" alt="Images"></li>
+                            <li><img src="/images/testimonial/clients4.png" alt="Images"> <span>230+</span></li>
+                          </ul>
+                        </div>
+                        <div class="shape-style1">
+                          <img src="/images/shape/1.png" alt="Images">
+                        </div>
+                        <div class="shape-style2">
+                          <img src="/images/shape/2.png" alt="Images">
+                        </div>
+                        <div class="shape-style3">
+                          <img src="/images/shape/3.png" alt="Images">
+                        </div>
+                        <div class="shape-style4">
+                          <img src="/images/shape/4.png" alt="Images">
+                        </div>
+                        <div class="shape-style5">
+                          <img src="/images/shape/5.png" alt="Images">
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <!-- End Slide Item -->
                     <!-- Start Slide Item -->
                     <div class="swiper-slide home-slider-item" :style="{ backgroundImage: `url('/images/slider/bg1.jpg')` }">
                         <div class="slider-content-area">
