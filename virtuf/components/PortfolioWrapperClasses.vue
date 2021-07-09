@@ -7,15 +7,15 @@
                         <div class="portfolio-filter-menu mb-0">
                             <button data-filter="all">All ProjectS</button>
                             <button data-filter=".business">Business</button>
-                            <button data-filter=".marketing">Programming & Tech</button>
-                            <button data-filter=".consulting">Digital Marketing</button>
-                            <button data-filter=".digital">Graphics & Design</button>
-                            <button data-filter=".digital">Data</button>
-                            <button data-filter=".business">Music & Audio</button>
-                            <button data-filter=".marketing">Video & Animation</button>
-                            <button data-filter=".consulting">Writing & Translation</button>
-                            <button data-filter=".digital">Consulting</button>
-                            <button data-filter=".digital">Lifestyle</button>
+                            <button data-filter=".tech">Programming & Tech</button>
+                            <button data-filter=".marketing">Digital Marketing</button>
+                            <button data-filter=".design">Graphics & Design</button>
+                            <button data-filter=".data">Data</button>
+                            <button data-filter=".music">Music & Audio</button>
+                            <button data-filter=".video">Video & Animation</button>
+                            <button data-filter=".writing">Writing & Translation</button>
+                            <button data-filter=".consulting">Consulting</button>
+                            <button data-filter=".lifestyle">Lifestyle</button>
                         </div>
                     </div>
                 </div>
@@ -24,7 +24,7 @@
                 <div class="col-md-6 portfolio-item mix" :class="portfolio.category" v-for="(portfolio, index) in portfolios" :key="index">
                     <div class="inner-content">
                         <div class="thumb">
-                            <n-link to="/project-details">
+                            <n-link to="/service">
                                 <img :src="portfolio.imgSrc" :alt="portfolio.title"/>
                             </n-link>
                         </div>
@@ -44,7 +44,7 @@
                 </div>
             </div>
             <div class="portfolio-footer text-center" data-aos="fade-up" data-aos-duration="1300">
-                <n-link to="/project-details" class="btn btn-theme btn-lg mb-1">Load More</n-link>
+                <n-link to="" class="btn btn-theme btn-lg mb-1">Load More</n-link>
             </div>
         </div>
     </section>
@@ -80,12 +80,12 @@
                     {
                         imgSrc: "/images/portfolio/5.jpg",
                         title: "Link Building Services",
-                        category: "business"
+                        category: "tech"
                     },
                     {
                         imgSrc: "/images/portfolio/6.jpg",
                         title: "Social Media Marketing",
-                        category: "marketing"
+                        category: "data"
                     },
                 ]
             }

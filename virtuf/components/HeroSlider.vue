@@ -3,16 +3,17 @@
         <div class="home-slider-content">
             <div class="home-slider-container">
                 <swiper :options="swiperOptions">
+
                     <!-- Start Slide Item -->
                     <div class="swiper-slide home-slider-item" :style="{ backgroundImage: `url('/images/slider/bg1.jpg')` }">
                         <div class="slider-content-area">
                             <div class="content">
                                 <div class="subtitle-content">
                                     <img src="/images/shape/line2.png" alt="Images">
-                                    <h6>For Lectors</h6>
+                                    <h6>Find Classes</h6>
                                 </div>
                                 <div class="tittle-wrp">
-                                    <h2>Unlimited Learning for <span>Business.</span></h2>
+                                    <h2>Unlimited Learning for <span>Creation and Business.</span></h2>
 
                                 </div>
                                 <p>Get the skills you need for as little as €12.99. Sale ends today.</p>
@@ -20,7 +21,7 @@
                             </div>
                             <div class="layer-style">
                                 <div class="thumb">
-                                    <img src="/images/slider/1.jpg" alt="Images">
+                                    <img src="/images/slider/3.jpg" alt="Images">
                                 </div>
                                 <div class="success-rate"><div class="content">100+<span>Lectors in</span></div></div>
                                 <div class="trusted-clients-content">
@@ -51,6 +52,7 @@
                         </div>
                     </div>
                     <!-- End Slide Item -->
+
                   <!-- Start Slide Item -->
                   <div class="swiper-slide home-slider-item" :style="{ backgroundImage: `url('/images/slider/bg1.jpg')` }">
                     <div class="slider-content-area">
@@ -99,6 +101,7 @@
                     </div>
                   </div>
                   <!-- End Slide Item -->
+
                     <!-- Start Slide Item -->
                     <div class="swiper-slide home-slider-item" :style="{ backgroundImage: `url('/images/slider/bg1.jpg')` }">
                         <div class="slider-content-area">
