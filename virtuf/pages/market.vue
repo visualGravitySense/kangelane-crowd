@@ -1,45 +1,45 @@
 <template>
-    <div class="portfolio-page-wrapper">
+  <div class="portfolio-page-wrapper">
 
-        <Header />
+    <Header />
 
-        <OffCanvasMobileMenu />
+    <OffCanvasMobileMenu />
 
-        <PageTitleMarket title="Projects" breadcrumbTitle="Projects" />
+    <PageTitleClasses title="Classes" breadcrumbTitle="Classes" />
 
-        <PortfolioWrapper />
+    <PortfolioWrapperClasses />
 
-        <ContactDevider />
+    <ContactDevider />
 
-        <Footer />
+    <Footer />
 
-        <client-only>
-            <back-to-top class="scroll-top" bottom="30px">
-                <i class="arrow-top icofont-rounded-up"></i>
-                <i class="arrow-bottom icofont-rounded-up"></i>
-            </back-to-top>
-        </client-only>
+    <client-only>
+      <back-to-top class="scroll-top" bottom="30px">
+        <i class="arrow-top icofont-rounded-up"></i>
+        <i class="arrow-bottom icofont-rounded-up"></i>
+      </back-to-top>
+    </client-only>
 
-    </div>
+  </div>
 </template>
 
 <script>
-    export default {
-        components: {
-            Header: () => import('@/components/Header'),
-            OffCanvasMobileMenu: () => import('@/components/OffCanvasMobileMenu'),
-            PageTitle: () => import('@/components/PageTitle'),
-            PortfolioWrapper: () => import('@/components/PortfolioWrapper'),
-            ContactDevider: () => import('@/components/ContactDevider'),
-            Footer: () => import('@/components/Footer'),
-        },
+export default {
+  components: {
+    Header: () => import('@/components/Header'),
+    OffCanvasMobileMenu: () => import('@/components/OffCanvasMobileMenu'),
+    PageTitle: () => import('@/components/PageTitle'),
+    PortfolioWrapperClasses: () => import('@/components/PortfolioWrapperClasses'),
+    ContactDevider: () => import('@/components/ContactDevider'),
+    Footer: () => import('@/components/Footer'),
+  },
 
-        head() {
-            return {
-                title: 'Project'
-            }
-        },
-    };
+  head() {
+    return {
+      title: 'Project'
+    }
+  },
+};
 </script>
 
 

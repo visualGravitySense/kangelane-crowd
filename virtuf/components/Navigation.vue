@@ -22,7 +22,7 @@
       </li>
 
       <li>
-        <n-link to="/prints">Chalenges</n-link>
+        <n-link to="/chalenges">Chalenges</n-link>
       </li>
 
 
