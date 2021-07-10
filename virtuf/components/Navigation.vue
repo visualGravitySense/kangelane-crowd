@@ -17,41 +17,44 @@
 <!--        <n-link to="/classes">Studios</n-link>-->
 <!--      </li>-->
 
-      <li>
-        <n-link to="/course">Jobs</n-link>
-      </li>
+<!--      <li>-->
+<!--        <n-link to="/course">Jobs</n-link>-->
+<!--      </li>-->
 
       <li>
         <n-link to="/chalenges">Chalenges</n-link>
       </li>
 
+      <li>
+        <n-link to="/prints">Prints</n-link>
+      </li>
 
 
       <!--SERVICE LINK with SUB MENU-->
 
-        <li class="has-submenu">
-            <n-link to="/service">Service</n-link>
-            <ul class="submenu-nav">
-                <li>
-                    <n-link to="/service-web">Web Development</n-link>
-                </li>
-                <li>
-                    <n-link to="/service-analysis">Market Analysis</n-link>
-                </li>
-                <li>
-                  <n-link to="/service-brand">Brand Identity</n-link>
-                </li>
-                <li>
-                  <n-link to="/service-consultation">Business Consultation</n-link>
-                </li>
-                <li>
-                  <n-link to="/service-sem">Digital Marketing</n-link>
-                </li>
-                <li>
-                  <n-link to="/service-design">UX & UI Design</n-link>
-                </li>
-            </ul>
-        </li>
+<!--        <li class="has-submenu">-->
+<!--            <n-link to="/service">Service</n-link>-->
+<!--            <ul class="submenu-nav">-->
+<!--                <li>-->
+<!--                    <n-link to="/service-web">Web Development</n-link>-->
+<!--                </li>-->
+<!--                <li>-->
+<!--                    <n-link to="/service-analysis">Market Analysis</n-link>-->
+<!--                </li>-->
+<!--                <li>-->
+<!--                  <n-link to="/service-brand">Brand Identity</n-link>-->
+<!--                </li>-->
+<!--                <li>-->
+<!--                  <n-link to="/service-consultation">Business Consultation</n-link>-->
+<!--                </li>-->
+<!--                <li>-->
+<!--                  <n-link to="/service-sem">Digital Marketing</n-link>-->
+<!--                </li>-->
+<!--                <li>-->
+<!--                  <n-link to="/service-design">UX & UI Design</n-link>-->
+<!--                </li>-->
+<!--            </ul>-->
+<!--        </li>-->
 
       <!--Projects with SUB MENU-->
 

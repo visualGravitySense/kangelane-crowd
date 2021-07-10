@@ -5,9 +5,9 @@
 
         <OffCanvasMobileMenu />
 
-        <PageTitle title="Jobs" breadcrumbTitle="Jobs" />
+        <PageTitle title="Chalenges" breadcrumbTitle="Chalenges" />
 
-        <CourseWrapper />
+        <ChalengesWrapper />
 
         <ContactDevider />
 
@@ -29,7 +29,7 @@
             Header: () => import('@/components/Header'),
             OffCanvasMobileMenu: () => import('@/components/OffCanvasMobileMenu'),
             PageTitle: () => import('@/components/PageTitle'),
-            CourseWrapper: () => import('@/components/Courses/CourseWrapper'),
+            ChalengesWrapper: () => import('@/components/Chalenges/ChalengesWrapper'),
             ContactDevider: () => import('@/components/ContactDevider'),
             Footer: () => import('@/components/Footer'),
         },

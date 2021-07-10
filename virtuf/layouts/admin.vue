@@ -2,7 +2,7 @@
     <div>
       <Header />
       <OffCanvasMobileMenu />
-      <PageTitle title="Admin panel" breadcrumbTitle="Admin" />
+      <PageTitle title="Account" breadcrumbTitle="Admin" />
 
       <HeaderAdmin />
 

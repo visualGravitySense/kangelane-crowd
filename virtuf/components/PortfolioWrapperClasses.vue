@@ -24,7 +24,7 @@
                 <div class="col-md-6 portfolio-item mix" :class="portfolio.category" v-for="(portfolio, index) in portfolios" :key="index">
                     <div class="inner-content">
                         <div class="thumb">
-                            <n-link to="/service">
+                            <n-link :to="portfolio.link">
                                 <img :src="portfolio.imgSrc" :alt="portfolio.title"/>
                             </n-link>
                         </div>
@@ -36,7 +36,7 @@
                                 </h3>
                                 <n-link to="/project-details" class="category">{{ portfolio.category }}</n-link>
                             </div>
-                            <n-link to="/project-details" class="btn-icon">
+                            <n-link to="/profile" class="btn-icon">
                                 <i class="icofont-long-arrow-right"></i>
                             </n-link>
                         </div>
@@ -60,32 +60,38 @@
                     {
                         imgSrc: "/images/portfolio/1.jpg",
                         title: "Business Management",
-                        category: "business"
+                        category: "business",
+                        link: "/course-1"
                     },
                     {
                         imgSrc: "/images/portfolio/2.jpg",
                         title: "Market Statics & Analysis.",
-                        category: "marketing"
+                        category: "marketing",
+                        link: "/course-2"
                     },
                     {
                         imgSrc: "/images/portfolio/3.jpg",
                         title: "Digital Marketing",
-                        category: "consulting"
+                        category: "consulting",
+                        link: "/course-3"
                     },
                     {
                         imgSrc: "/images/portfolio/4.jpg",
                         title: "Business Consultation",
-                        category: "digital"
+                        category: "digital",
+                        link: "/course-4"
                     },
                     {
                         imgSrc: "/images/portfolio/5.jpg",
                         title: "Link Building Services",
-                        category: "tech"
+                        category: "tech",
+                        link: "/course-1"
                     },
                     {
                         imgSrc: "/images/portfolio/6.jpg",
                         title: "Social Media Marketing",
-                        category: "data"
+                        category: "data",
+                        link: "/course-2"
                     },
                 ]
             }
