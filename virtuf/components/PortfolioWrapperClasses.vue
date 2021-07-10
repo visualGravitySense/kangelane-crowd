@@ -5,6 +5,7 @@
                 <div class="col-lg-12">
                     <div class="section-title text-center" data-aos="fade-up" data-aos-duration="1000">
                         <div class="portfolio-filter-menu mb-0">
+
                             <button data-filter="all">All ProjectS</button>
                             <button data-filter=".business">Business</button>
                             <button data-filter=".tech">Programming & Tech</button>
@@ -21,20 +22,32 @@
                 </div>
             </div>
             <div class="row portfolio-grid gutter-50 box" data-aos="fade-up" data-aos-duration="1000">
-                <div class="col-md-6 portfolio-item mix" :class="portfolio.category" v-for="(portfolio, index) in portfolios" :key="index">
+                <div class="col-md-6 portfolio-item mix" :class="blogs.category" v-for="(blogs, index) in blogs" :key="index">
                     <div class="inner-content">
+
+<!--                        <div class="thumb">-->
+<!--                            <n-link to="/project-details">-->
+<!--                                <img :src="blogs.imgTitle" :alt="blogs.name"/>-->
+<!--                            </n-link>-->
+<!--                        </div>-->
+
                         <div class="thumb">
-                            <n-link :to="portfolio.link">
-                                <img :src="portfolio.imgSrc" :alt="portfolio.title"/>
-                            </n-link>
+                          <div  v-if="blogs.imgTitle !== null">
+                            <img :src="blogs.imgTitle" :alt="blogs.name">
+
+                          </div>
                         </div>
+
                         <div class="portfolio-info">
                             <div class="content">
                                 <img class="shape-line-img" src="/images/shape/line-s1.png" alt="shape image">
                                 <h3 class="title">
-                                    <n-link to="/project-details">{{ portfolio.title }}</n-link>
+                                    <n-link to="/project-details">{{ blogs.name }}</n-link>
                                 </h3>
-                                <n-link to="/project-details" class="category">{{ portfolio.category }}</n-link>
+                                <p class="">
+                                  {{ blogs.shortDescr }}
+                                </p>
+                                <n-link to="/project-details" class="category">{{ blogs.category }}</n-link>
                             </div>
                             <n-link to="/profile" class="btn-icon">
                                 <i class="icofont-long-arrow-right"></i>
@@ -52,49 +65,62 @@
 
 <script>
     export default {
-        data() {
-            return {
-                mixer: null,
+      props: {
+        blogs: {
+          type: Array,
+          required: true
+        }
+      },
 
-                portfolios: [
-                    {
-                        imgSrc: "/images/portfolio/1.jpg",
-                        title: "Business Management",
-                        category: "business",
-                        link: "/course-1"
-                    },
-                    {
-                        imgSrc: "/images/portfolio/2.jpg",
-                        title: "Market Statics & Analysis.",
-                        category: "marketing",
-                        link: "/course-2"
-                    },
-                    {
-                        imgSrc: "/images/portfolio/3.jpg",
-                        title: "Digital Marketing",
-                        category: "consulting",
-                        link: "/course-3"
-                    },
-                    {
-                        imgSrc: "/images/portfolio/4.jpg",
-                        title: "Business Consultation",
-                        category: "digital",
-                        link: "/course-4"
-                    },
-                    {
-                        imgSrc: "/images/portfolio/5.jpg",
-                        title: "Link Building Services",
-                        category: "tech",
-                        link: "/course-1"
-                    },
-                    {
-                        imgSrc: "/images/portfolio/6.jpg",
-                        title: "Social Media Marketing",
-                        category: "data",
-                        link: "/course-2"
-                    },
-                ]
-            }
+        // data() {
+        //     return {
+        //         mixer: null,
+        //
+        //         portfolios: [
+        //             {
+        //                 imgSrc: "/images/portfolio/1.jpg",
+        //                 title: "Business Management",
+        //                 category: "business",
+        //                 link: "/course-1"
+        //             },
+        //             {
+        //                 imgSrc: "/images/portfolio/2.jpg",
+        //                 title: "Market Statics & Analysis.",
+        //                 category: "marketing",
+        //                 link: "/course-2"
+        //             },
+        //             {
+        //                 imgSrc: "/images/portfolio/3.jpg",
+        //                 title: "Digital Marketing",
+        //                 category: "consulting",
+        //                 link: "/course-3"
+        //             },
+        //             {
+        //                 imgSrc: "/images/portfolio/4.jpg",
+        //                 title: "Business Consultation",
+        //                 category: "digital",
+        //                 link: "/course-4"
+        //             },
+        //             {
+        //                 imgSrc: "/images/portfolio/5.jpg",
+        //                 title: "Link Building Services",
+        //                 category: "tech",
+        //                 link: "/course-1"
+        //             },
+        //             {
+        //                 imgSrc: "/images/portfolio/6.jpg",
+        //                 title: "Social Media Marketing",
+        //                 category: "data",
+        //                 link: "/course-2"
+        //             },
+        //         ]
+        //     }
+        // },
+
+        computed: {
+          blogs () {
+            return this.$store.getters.getPostsLoaded
+          }
         },
 
         mounted () {

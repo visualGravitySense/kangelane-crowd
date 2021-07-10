@@ -36,7 +36,7 @@
 
         head() {
             return {
-                title: 'Blog'
+                title: 'Chalenges'
             }
         },
     };

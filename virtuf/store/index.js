@@ -10,10 +10,11 @@ export const mutations = {
     state.postsLoaded = blogs
   },
 
-  addPost (state, blog) {
-    // console.log(blog)
-    state.postsLoaded.push(blog)
-  },
+  // addPost (state, blog) {
+  //   // console.log(blog)
+  //   state.postsLoaded.push(blog)
+  // },
+
   // editPost ({commit, state}, post) {
   //   // return axios.put(`http://localhost:1337/blogs/${post.id}?auth=${state.token}`, post)
   //   return axios.put(`http://localhost:1337/blogs/${post.id}`, post)
@@ -33,7 +34,7 @@ export const mutations = {
 export const actions = {
 
   nuxtServerInit ({commit}, contex) {
-    return axios.get('http://localhost:1337/jobs')
+    return axios.get('http://localhost:1337/articles')
       .then(res => {
         console.log(res)
         // Resolve problem with post id on Firebase backend
@@ -47,16 +48,16 @@ export const actions = {
       .catch(e => console.log(e))
   },
 
-  addPost ({commit}, blog) {
-    console.log(blog)
-    // console.log('Hello STORE!!! - Add Post script worked from STORE!!!')
-    return axios.post('http://localhost:1337/jobs', blog)
-      .then(res => {
-        commit('addPost', blog)
-      })
-      .catch(e => console.log(e))
-
-  }
+  // addPost ({commit}, blog) {
+  //   console.log(blog)
+  //   // console.log('Hello STORE!!! - Add Post script worked from STORE!!!')
+  //   return axios.post('http://localhost:1337/jobs', blog)
+  //     .then(res => {
+  //       commit('addPost', blog)
+  //     })
+  //     .catch(e => console.log(e))
+  //
+  // }
 
     // new version of user login from strapi documentation
     // async authUser ({commit}, authData) {
