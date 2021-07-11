@@ -55,8 +55,8 @@
                         <div class="video-divider">
                             <img src="/images/photos/video1.jpg" alt="image">
 
-                            <CoolLightBox 
-                                :items="items" 
+                            <CoolLightBox
+                                :items="items"
                                 :index="index"
                                 @close="index = null">
                             </CoolLightBox>
