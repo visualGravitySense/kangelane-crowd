@@ -1,5 +1,5 @@
 <template>
-    <section class="page-title-area" :style="{ backgroundImage: `url('/images/photos/bg-page-title.jpg')` }">
+    <section class="page-title-area" :style="{ backgroundImage: `url('/images/photos/bg-faq.jpg')` }">
         <div class="container">
             <div class="row">
                 <div class="col-lg-12">

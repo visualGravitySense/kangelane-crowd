@@ -5,7 +5,7 @@
 
     <OffCanvasMobileMenu/>
 
-    <PageTitle title="Build your brand: Logo Design." breadcrumbTitle="Classes"/>
+    <PageTitle :title="blog.name" breadcrumbTitle="Classes"  />
 
     <CourseDetailsWrapper1  :blog="blog"/>
 
@@ -45,14 +45,14 @@ export default {
   //   },
 
 
-  // async asyncData (context) {
-  //   let [blog] = await Promise.all([
-  //     axios.get(`http://localhost:1337/articles/${context.params.id}`)
-  //   ])
-  //   return {
-  //     blog: blog.data
-  //   }
-  // },
+  async asyncData (context) {
+    let [blog] = await Promise.all([
+      axios.get(`http://localhost:1337/articles/${context.params.id}`)
+    ])
+    return {
+      blog: blog.data
+    }
+  },
 
   head() {
     return {

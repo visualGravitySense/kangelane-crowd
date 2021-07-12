@@ -52,7 +52,7 @@
                                 </p>
                                 <n-link to="/project-details" class="category">{{ blogs.category }}</n-link>
                             </div>
-                            <n-link to="/profile" class="btn-icon">
+                            <n-link :to="/classes/+blogs.id" class="btn-icon">
                                 <i class="icofont-long-arrow-right"></i>
                             </n-link>
                         </div>

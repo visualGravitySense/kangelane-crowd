@@ -23,59 +23,41 @@ Razrabotka vseh logotipov: v raznyx dizajnax formatah
                                     </div>
                                     <div class="meta">
                                         <div class="inner-meta">
-                                            <n-link to="/blog" class="post-date">05 July, 2021</n-link>
-                                            <n-link to="/blog" class="post-comment"><i class="icofont-speech-comments"></i> 0</n-link>
-                                            <n-link to="/blog" class="post-like"><i class="icofont-heart"></i> 0</n-link>
-                                            <a class="post-author"><i class="icofont-user-alt-7"></i> Svetlana Polinskaja</a>
+                                            <n-link to="" class="post-date">{{ blog.date }}</n-link>
+                                            <n-link to="" class="post-comment"><i class="icofont-speech-comments"></i> {{ blog.students }} </n-link>
+                                            <n-link to="" class="post-like"><i class="icofont-heart"></i> {{ blog.follow }} </n-link>
+                                            <a class="post-author"><i class="icofont-user-alt-7"></i> {{ blog.author }} </a>
                                         </div>
                                     </div>
-                                    <p>Graphic Design Masterclass - Learn Great Logo Design.
-                                      The step-by-step process to becoming a graphic designer.
-                                      Create logos and branding packages for potential clients.
-                                      Understand solid logo design and ad design principles to create compelling campaigns and logos.
-
-
-
-
+                                    <p>
+                                      {{ blog.intro}}
                                       </p>
-                                    <p class="mb-0">This course goal is to help build timeless brand identities and reach their target audience through visual designs.
-                                      We also apply our logos to mockups so we can create polished presentations for our portfolio or to the client for approval.
-                                      For the theory section of this course we dive into logo design categories and also review the different logo design styles while showing stellar examples of each.</p>
-                                    <div class="thumb">
 
+                                    <div class="thumb">
+                                      <div  v-if="blog.imgTitle !== null">
+                                        <img :src="`http://localhost:1337${blog.imgTitle.url}`" :alt="blog.name">
+                                      </div>
                                     </div>
+
                                     <h2 class="title">Description</h2>
                                     <div class="separator-line">
                                         <img class="me-1" src="/images/shape/line-s2.png" alt="shape">
                                         <img src="/images/shape/line-s1.png" alt="shape">
                                     </div>
-                                    <p>We learn about different logo design formats and their benefits.
-                                      Develop a Professional  Logo Designs: Iconic logo, Typographic and Vintage logo design.
-                                      Study and follow a client brief to create a logo exactly to requirements with ultimate satisfaction.
-                                      Learn how to develop logo design sketches like a professional
-                                      and how to colour logos professionally and how to make the most of few colours.
-                                      Finally we learn how to present your logo design work to the client professionally.</p>
+                                    <p>
+                                      {{ blog.description2 }}
+                                    </p>
 
-                                    <p class="mb-0">What we actually do here:
-                                      <br>✔ Unique Concepts for logos
-                                      <br>✔ Vector / Source files
-                                      <br>✔ Some revisions as it's need
-                                      <br>✔ Product Mockup
-                                      <br>✔ Customer Presentation
-                                      <br>✔ Post your work on freelance sites
-                                      </p>
+
                                     <div class="blockquote-area">
                                         <blockquote class="blockquote-style">
-                                            <p>Logos are the graphic extension of the <span>internal realities</span> of a company.  — Saul Bass.</p>
+                                            <p> {{ blog.quote }} </p>
                                             <div class="icon">”</div>
                                         </blockquote>
                                     </div>
 
-                                    <p class="mb-26">This course lector is a professional logo & branding expert.
-                                      She has worked in Moscow various agencies in designing logos.</p>
-                                    <p>"I believe in communication, trust and creativity what builds strong
-                                      relationship with a client. With big desire i waiting all yours messages
-                                      about my course and new opportunities for future classes." Svetlana
+                                    <p>
+                                      {{ blog.description3 }}
                                     </p>
 
 

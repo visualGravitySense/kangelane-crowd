@@ -1,0 +1,43 @@
+{
+  "kind": "collectionType",
+  "collectionName": "cvs",
+  "info": {
+    "name": "cv",
+    "description": ""
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "location": {
+      "type": "string"
+    },
+    "img": {
+      "model": "file",
+      "via": "related",
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos"
+      ],
+      "plugin": "upload",
+      "required": false,
+      "pluginOptions": {}
+    },
+    "worktime": {
+      "type": "boolean"
+    },
+    "remote": {
+      "type": "boolean"
+    },
+    "content": {
+      "type": "richtext"
+    }
+  }
+}

@@ -1,0 +1,24 @@
+{
+  "kind": "collectionType",
+  "collectionName": "contracts",
+  "info": {
+    "name": "contract"
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "bill": {
+      "type": "boolean"
+    },
+    "company": {
+      "type": "string"
+    },
+    "regNmr": {
+      "type": "string"
+    }
+  }
+}

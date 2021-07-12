@@ -1,0 +1,91 @@
+{
+  "kind": "collectionType",
+  "collectionName": "articles",
+  "info": {
+    "name": "article",
+    "description": ""
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "name": {
+      "type": "string"
+    },
+    "speciality": {
+      "type": "string"
+    },
+    "city": {
+      "type": "string"
+    },
+    "email": {
+      "type": "email"
+    },
+    "mobile": {
+      "type": "string"
+    },
+    "Title": {
+      "type": "string"
+    },
+    "excerpt": {
+      "type": "text"
+    },
+    "category": {
+      "type": "enumeration",
+      "enum": [
+        "business",
+        "tech",
+        "marketing",
+        "design",
+        "data",
+        "music",
+        "video",
+        "writing",
+        "consulting",
+        "lifestyle"
+      ]
+    },
+    "imgTitle": {
+      "model": "file",
+      "via": "related",
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos"
+      ],
+      "plugin": "upload",
+      "required": false,
+      "pluginOptions": {}
+    },
+    "shortDescr": {
+      "type": "string"
+    },
+    "date": {
+      "type": "string"
+    },
+    "students": {
+      "type": "integer"
+    },
+    "follow": {
+      "type": "integer"
+    },
+    "author": {
+      "type": "string"
+    },
+    "intro": {
+      "type": "string"
+    },
+    "description2": {
+      "type": "text"
+    },
+    "description3": {
+      "type": "text"
+    },
+    "quote": {
+      "type": "string"
+    }
+  }
+}

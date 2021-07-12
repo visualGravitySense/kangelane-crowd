@@ -1,0 +1,94 @@
+{
+  "kind": "collectionType",
+  "collectionName": "jobs",
+  "info": {
+    "name": "jobs",
+    "description": ""
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "imgSrc": {
+      "model": "file",
+      "via": "related",
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos"
+      ],
+      "plugin": "upload",
+      "required": false,
+      "pluginOptions": {}
+    },
+    "title": {
+      "type": "string"
+    },
+    "excerpt": {
+      "type": "text"
+    },
+    "author": {
+      "type": "string"
+    },
+    "category": {
+      "type": "string"
+    },
+    "email": {
+      "type": "email"
+    },
+    "deadline": {
+      "type": "date"
+    },
+    "jobType": {
+      "type": "enumeration",
+      "enum": [
+        "Permanently",
+        "Underemployment",
+        "Contract"
+      ]
+    },
+    "location": {
+      "type": "string"
+    },
+    "desired": {
+      "type": "text"
+    },
+    "capabilities": {
+      "type": "string"
+    },
+    "res": {
+      "type": "richtext"
+    },
+    "company": {
+      "type": "string"
+    },
+    "about": {
+      "type": "text"
+    },
+    "youget": {
+      "type": "string"
+    },
+    "lifeAt": {
+      "type": "text"
+    },
+    "bonus": {
+      "type": "string"
+    },
+    "bon": {
+      "type": "richtext"
+    },
+    "video": {
+      "model": "file",
+      "via": "related",
+      "allowedTypes": [
+        "videos"
+      ],
+      "plugin": "upload",
+      "required": false,
+      "pluginOptions": {}
+    }
+  }
+}
