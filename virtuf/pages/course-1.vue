@@ -37,7 +37,7 @@
 
         head() {
             return {
-                title: 'Blog Details'
+                title: 'Course'
             }
         },
     };

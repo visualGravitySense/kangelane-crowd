@@ -28,7 +28,7 @@
         components: {
             Header: () => import('@/components/Header'),
             OffCanvasMobileMenu: () => import('@/components/OffCanvasMobileMenu'),
-            PageTitle: () => import('@/components/PageTitle'),
+            PageTitleClasses: () => import('@/components/PageTitleClasses'),
             PortfolioWrapperClasses: () => import('@/components/PortfolioWrapperClasses'),
             ContactDevider: () => import('@/components/ContactDevider'),
             Footer: () => import('@/components/Footer'),

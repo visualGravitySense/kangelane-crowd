@@ -15,7 +15,8 @@ Razrabotka vseh logotipov: v raznyx dizajnax formatah
                         <div class="post-details-content">
                             <div class="post-details-body">
                                 <div class="content" data-aos="fade-up" data-aos-duration="1000">
-                                    <h2 class="title">Build your brand: Logo Design.</h2>
+<!--                                    <h2 class="title"> uild your brand: Logo Design.</h2>-->
+                                    <h2 class="title"> {{ blog.name }} </h2>
                                     <div class="separator-line mb-21">
                                         <img class="me-1" src="/images/shape/line-s2.png" alt="shape">
                                         <img src="/images/shape/line-s1.png" alt="shape">
@@ -41,7 +42,7 @@ Razrabotka vseh logotipov: v raznyx dizajnax formatah
                                       We also apply our logos to mockups so we can create polished presentations for our portfolio or to the client for approval.
                                       For the theory section of this course we dive into logo design categories and also review the different logo design styles while showing stellar examples of each.</p>
                                     <div class="thumb">
-                                        <img src="/images/blog/b1.jpg" alt="image">
+
                                     </div>
                                     <h2 class="title">Description</h2>
                                     <div class="separator-line">
@@ -56,12 +57,12 @@ Razrabotka vseh logotipov: v raznyx dizajnax formatah
                                       Finally we learn how to present your logo design work to the client professionally.</p>
 
                                     <p class="mb-0">What we actually do here:
-                                      </br>✔ Unique Concepts for logos
-                                      </br>✔ Vector / Source files
-                                      </br>✔ Some revisions as it's need
-                                      </br>✔ Product Mockup
-                                      </br>✔ Customer Presentation
-                                      </br>✔ Post your work on freelance sites
+                                      <br>✔ Unique Concepts for logos
+                                      <br>✔ Vector / Source files
+                                      <br>✔ Some revisions as it's need
+                                      <br>✔ Product Mockup
+                                      <br>✔ Customer Presentation
+                                      <br>✔ Post your work on freelance sites
                                       </p>
                                     <div class="blockquote-area">
                                         <blockquote class="blockquote-style">
@@ -163,6 +164,7 @@ Razrabotka vseh logotipov: v raznyx dizajnax formatah
 </template>
 
 <script>
+import axios from "axios";
     export default {
         components: {
             PostAuthorInfo: () => import('@/components/PostAuthorInfo'),
@@ -175,5 +177,37 @@ Razrabotka vseh logotipov: v raznyx dizajnax formatah
             WidgetRecentPost: () => import('@/components/WidgetRecentPost'),
             WidgetTags: () => import('@/components/WidgetTags'),
         },
+        name: "Class",
+
+        // async asyncData (context) {
+        //   let [blog] = await Promise.all([
+        //     axios.get(`http://localhost:1337/articles/${context.params.id}`)
+        //   ])
+        //   return {
+        //     blog: blog.data
+        //   }
+        // },
+
+        // data () {
+        //   return {
+        //     blog: {
+        //       id: 1,
+        //       name: "Test Name"
+        //     }
+        //   }
+        // },
+
+        props: {
+          blog: {
+            type: Array,
+            required: true
+          }
+        },
+
+        // computed: {
+        //   blogs () {
+        //     return this.$store.getters.getPostsLoaded
+        //   }
+        // },
     };
 </script>
