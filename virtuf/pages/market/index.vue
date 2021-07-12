@@ -5,9 +5,10 @@
 
     <OffCanvasMobileMenu />
 
-    <PageTitleClasses title="Classes" breadcrumbTitle="Classes" />
+    <PageTitleClasses title="Marketplace" breadcrumbTitle="Market" />
 
-    <PortfolioWrapperClasses />
+<!--    <PortfolioWrapperClasses />-->
+    <PortfolioWrapperMarket />
 
     <ContactDevider />
 

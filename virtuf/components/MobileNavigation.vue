@@ -11,7 +11,19 @@
                 </li>
 
                 <li>
-                  <n-link to="/about">About</n-link>
+                  <n-link to="/market">Marketplace</n-link>
+                </li>
+
+                <li>
+                  <n-link to="/prints">Prints</n-link>
+                </li>
+
+                <li>
+                  <n-link to="/jobs">Jobs</n-link>
+                </li>
+
+                <li>
+                  <n-link to="/jobs">About</n-link>
                 </li>
 
 <!--                <li class="has-children">-->

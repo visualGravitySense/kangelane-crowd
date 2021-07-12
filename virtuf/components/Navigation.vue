@@ -5,21 +5,21 @@
             <n-link to="/classes">Classes</n-link>
         </li>
 
-<!--          <li>-->
-<!--            <n-link to="/market">Marketplace</n-link>-->
-<!--          </li>-->
+          <li>
+            <n-link to="/market">Marketplace</n-link>
+          </li>
 
-<!--        <li>-->
-<!--            <n-link to="/prints">Prints</n-link>-->
-<!--        </li>-->
+        <li>
+            <n-link to="/prints">Prints</n-link>
+        </li>
 
 <!--      <li>-->
 <!--        <n-link to="/classes">Studios</n-link>-->
 <!--      </li>-->
 
-<!--      <li>-->
-<!--        <n-link to="/course">Jobs</n-link>-->
-<!--      </li>-->
+      <li>
+        <n-link to="/jobs">Jobs</n-link>
+      </li>
 
 <!--      <li>-->
 <!--        <n-link to="/chalenges">Chalenges</n-link>-->

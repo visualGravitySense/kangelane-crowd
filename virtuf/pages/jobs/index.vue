@@ -6,8 +6,8 @@
         <OffCanvasMobileMenu />
 
         <PageTitle title="Job Offers" breadcrumbTitle="Jobs" />
-
-        <JobsWrapper />
+<!--      ERROR-->
+<!--        <JobsWrapper />-->
 
         <ContactDevider />
 

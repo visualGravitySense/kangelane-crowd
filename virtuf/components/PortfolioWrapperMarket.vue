@@ -6,16 +6,13 @@
                     <div class="section-title text-center" data-aos="fade-up" data-aos-duration="1000">
                         <div class="portfolio-filter-menu mb-0">
                             <button data-filter="all">All ProjectS</button>
-                            <button data-filter=".business">Business</button>
-                            <button data-filter=".tech">Programming & Tech</button>
-                            <button data-filter=".marketing">Digital Marketing</button>
-                            <button data-filter=".design">Graphics & Design</button>
-                            <button data-filter=".data">Data</button>
-                            <button data-filter=".music">Music & Audio</button>
-                            <button data-filter=".video">Video & Animation</button>
-                            <button data-filter=".writing">Writing & Translation</button>
-                            <button data-filter=".consulting">Consulting</button>
-                            <button data-filter=".lifestyle">Lifestyle</button>
+                            <button data-filter=".web templates">Web Templates</button>
+                            <button data-filter=".code">Code</button>
+                            <button data-filter=".video">Video</button>
+                            <button data-filter=".audio">Audio</button>
+                            <button data-filter=".graphics">Graphics</button>
+                            <button data-filter=".photos">Photos</button>
+                            <button data-filter=".3D files">3D Files</button>
                         </div>
                     </div>
                 </div>

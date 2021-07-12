@@ -97,9 +97,9 @@
                         <img class="line-shape" src="/images/shape/line-s1.png" alt="Virtuf-HasTech">
                         <nav class="widget-menu-wrap">
                             <ul class="nav-menu nav">
-                                <li><n-link to="">Group Profile</n-link></li>
-                                <li><n-link to="">Vision & Values</n-link></li>
-                                <li><n-link to="">Company History</n-link></li>
+                                <li><n-link to="/market">Marketplace</n-link></li>
+                                <li><n-link to="/prints">Prints</n-link></li>
+                                <li><n-link to="/jobs">Jobs</n-link></li>
                                 <li><n-link to="">Careers</n-link></li>
                                 <li><n-link to="">Winning Awards</n-link></li>
                                 <li><n-link to="">Sustainability</n-link></li>
