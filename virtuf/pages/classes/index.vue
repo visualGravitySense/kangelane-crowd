@@ -36,7 +36,7 @@
 
         head() {
             return {
-                title: 'Project'
+                title: 'Classes'
             }
         },
     };

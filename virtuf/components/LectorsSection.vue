@@ -22,6 +22,9 @@
                     </div>
                 </div>
             </div>
+
+
+
             <div class="row">
                 <div class="col-lg-12">
                     <div class="team-slider-content" data-aos="fade-up" data-aos-duration="1200">
@@ -205,6 +208,7 @@
 
 <script>
     export default {
+
         data() {
             return {
                 swiperOptions: {

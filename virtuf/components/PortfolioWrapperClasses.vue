@@ -33,16 +33,19 @@
 
                         <div class="thumb">
                           <div  v-if="blogs.imgTitle !== null">
-                            <img :src="blogs.imgTitle" :alt="blogs.name">
-
+                            <img :src="`http://localhost:1337${blogs.imgTitle.url}`" :alt="blogs.name">
                           </div>
+                          <span v-else>No immage</span>
                         </div>
 
                         <div class="portfolio-info">
                             <div class="content">
                                 <img class="shape-line-img" src="/images/shape/line-s1.png" alt="shape image">
                                 <h3 class="title">
-                                    <n-link to="/project-details">{{ blogs.name }}</n-link>
+<!--                                    <n-link to="/project-details">{{ blogs.name }}</n-link>-->
+
+                                    <n-link :to="/classes/+blogs.id" >{{ blogs.name }}</n-link>
+
                                 </h3>
                                 <p class="">
                                   {{ blogs.shortDescr }}

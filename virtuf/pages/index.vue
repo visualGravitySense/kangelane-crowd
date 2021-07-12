@@ -5,15 +5,27 @@
 
         <OffCanvasMobileMenu />
 
+<!--      EXPERIMENTS-->
+<!--        <AboutTwo />-->
+<!--        <AboutUser />-->
+<!--        <ApplyJob />-->
+<!--        <BlogSection />-->
+<!--        <Comments />-->
+<!--        <FeatureList />-->
+<!--      EXPERIMENTS ENDS-->
+
         <HeroSlider />
 
         <AboutOne />
+
 
         <ServiceOne />
 
         <FaqOne />
 
         <LectorsSection class="team-default-area" />
+        <AboutTwo />
+
 
 <!--        <PortfolioSection />-->
 
@@ -44,6 +56,7 @@
             OffCanvasMobileMenu: () => import('@/components/OffCanvasMobileMenu'),
             HeroSlider: () => import('@/components/HeroSlider'),
             AboutOne: () => import('@/components/AboutOne'),
+            AboutTwo: () => import('@/components/AboutTwo'),
             FunFactOne: () => import('@/components/FunFactOne'),
             ServiceOne: () => import('@/components/ServiceOne'),
             FaqOne: () => import('@/components/FaqOne'),

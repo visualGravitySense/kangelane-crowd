@@ -18,6 +18,22 @@
     <section class="about-area">
         <div class="position-relative">
             <div class="container">
+
+<!--              <div class="row">-->
+<!--                <div class="col-lg-8 m-auto">-->
+<!--                  <div class="section-title text-center" data-aos="fade-up" data-aos-duration="1000">-->
+<!--                    <h2 class="title">See how other creators use Kangelane</h2>-->
+<!--                    <div class="separator-line mt-14">-->
+<!--                      <img class="me-1" src="/images/shape/line-s2.png" alt="Images">-->
+<!--                      <img src="/images/shape/line-s1.png" alt="Images">-->
+<!--                    </div>-->
+<!--                    <div class="desc">-->
+<!--                      <p class="mt-21">Kangelane is a team of young, energetic and highly qualified specialists. <br>The goal of the company is to achieve maximum customer satisfaction<br> with a professional and modern approach.</p>-->
+<!--                    </div>-->
+<!--                  </div>-->
+<!--                </div>-->
+<!--              </div>-->
+
                 <div class="row">
                     <div class="col-md-8 offset-md-2 col-lg-6 offset-lg-3 col-xl-6 offset-xl-0">
                         <div class="layer-about-style" data-aos="fade-up" data-aos-duration="1000">
@@ -68,5 +84,10 @@
     </section>
 </template>
 
+<style>
+.about-area {
+  padding: 0px 0 120px;
+}
+</style>
 
 
