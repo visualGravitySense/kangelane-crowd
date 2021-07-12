@@ -7,14 +7,14 @@
                         <i class="icon icofont-plus"></i>
                         <i class="icon icofont-minus"></i>
                     </span>
-                  How can start fundraising on Kangelane?
+                  How can start teaching on Kangelane?
                 </b-button>
             </b-card-header>
             <b-collapse id="accordion-1" visible accordion="my-accordion">
                 <b-card-body>
                     <b-card-text>
                       That depends upon the task, but average decision accept time is 1-2 days.
-                      Minimum price for the separate project slot is 1€ (euro). The amount of slots is
+                      Minimum price for the separate class is 1€ (euro). The amount of slots is
                       unlimited, but to have many slots can break the focus.
                       And if you don't know how to start -
                       we have also support team.

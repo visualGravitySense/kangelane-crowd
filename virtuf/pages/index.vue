@@ -18,21 +18,17 @@
 
         <AboutOne />
 
-
         <ServiceOne />
 
         <FaqOne />
 
         <LectorsSection class="team-default-area" />
+
         <AboutTwo />
 
-
 <!--        <PortfolioSection />-->
-
 <!--        <TestimonialOne />-->
-
 <!--        <BrandLogoSection />-->
-
 <!--        <BlogSection />-->
 
         <ContactDevider />

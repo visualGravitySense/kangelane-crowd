@@ -109,8 +109,26 @@ Razrabotka vseh logotipov: v raznyx dizajnax formatah
                                     </div>
                                 </div>
 
-                                <PostAuthorInfoSv />
+<!--                                <PostAuthorInfoSv />-->
 <!--                                <PostAuthorInfo />-->
+
+                                <div class="author-info" data-aos="fade-up" data-aos-duration="1000">
+                                  <div class="thumb">
+                                    <img src="/images/blog/author-01.jpg" alt="Image">
+                                  </div>
+                                  <div class="author-details">
+                                    <h4 class="title"> {{ blog.author }} </h4>
+                                    <img class="line-shape" src="/images/shape/line-s1.png" alt="image">
+                                      <p>
+                                      {{ blog.aboutauthor }}
+                                      </p>
+                                    <div class="social-icons">
+                                      <a href="#"><i class="icofont-facebook"></i></a>
+                                      <a href="#"><i class="icofont-skype"></i></a>
+                                      <a href="#"><i class="icofont-instagram"></i></a>
+                                    </div>
+                                  </div>
+                                </div>
 
 <!--                              COMMENT AREA-->
 
@@ -146,7 +164,7 @@ Razrabotka vseh logotipov: v raznyx dizajnax formatah
 </template>
 
 <script>
-import axios from "axios";
+
     export default {
         components: {
             PostAuthorInfo: () => import('@/components/PostAuthorInfo'),

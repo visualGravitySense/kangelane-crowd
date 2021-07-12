@@ -12,8 +12,8 @@
                                 <div class="content">
                                     <h4>Call Us.</h4>
                                     <img class="line-icon" src="/images/shape/line-s1.png" alt="Icon">
-                                    <a href="tel://0123456789">0123456789</a>
-                                    <a href="tel://0123456789">0123456789</a>
+                                    <a href="tel://0037258976398">+372 5897 6398</a>
+<!--                                    <a href="tel://0123456789">0123456789</a>-->
                                 </div>
                             </div>
                             <div class="contact-info-item">
@@ -23,8 +23,8 @@
                                 <div class="content">
                                     <h4>Email.</h4>
                                     <img class="line-icon" src="/images/shape/line-s1.png" alt="Icon">
-                                    <a href="mailto://support@gmail.com">support@gmail.com</a>
-                                    <a href="mailto://demo@gmail.com">demo@gmail.com</a>
+                                    <a href="mailto://kangelane@deepfatsnail.eu">kangelane@deepfatsnail.eu</a>
+<!--                                    <a href="mailto://demo@gmail.com">demo@gmail.com</a>-->
                                 </div>
                             </div>
                             <div class="contact-info-item">
@@ -34,7 +34,7 @@
                                 <div class="content">
                                     <h4>Location.</h4>
                                     <img class="line-icon" src="/images/shape/line-s1.png" alt="Icon">
-                                    <p>92 St., New York, <br>Ny 10013, USA</p>
+                                    <p>Pae 21, Tallinn <br>Estonia</p>
                                 </div>
                             </div>
                         </div>
@@ -50,7 +50,7 @@
                             <n-link to="/" class="footer-logo">
                                 <img src="/images/logo/logo.png" alt="Logo">
                             </n-link>
-                            <p>Lorem Ipsum is simply dummy text of the and typesetting industry. Lorem Ipsum has industry's standard dummy text ever printer took a galley.</p>
+                            <p>On Kangelane, you can find your business needs and be a part of creative community in Estonia. You get access to exclusive content, community, and insight into creative process of creators.</p>
                             <div class="widget-newsletter">
                                 <form>
                                     <input type="email" class="form-control" placeholder="Enter your email">
@@ -70,21 +70,21 @@
                             <div class="row">
                                 <div class="col-md-6">
                                     <ul class="nav-menu nav">
-                                        <li><n-link to="/service-details">Business</n-link></li>
-                                        <li><n-link to="/service-details">Programming & Tech</n-link></li>
-                                        <li><n-link to="/service-details">Digital Marketing</n-link></li>
-                                        <li><n-link to="/service-details">Graphics & Design</n-link></li>
-                                        <li><n-link to="/service-details">Data</n-link></li>
+                                        <li><n-link to="">Business</n-link></li>
+                                        <li><n-link to="">Programming & Tech</n-link></li>
+                                        <li><n-link to="">Digital Marketing</n-link></li>
+                                        <li><n-link to="">Graphics & Design</n-link></li>
+                                        <li><n-link to="">Data</n-link></li>
 
                                     </ul>
                                 </div>
                                 <div class="col-md-6">
                                     <ul class="nav-menu nav">
-                                        <li><n-link to="/service-details">Music & Audio</n-link></li>
-                                        <li><n-link to="/service-details">Video & Animation</n-link></li>
-                                        <li><n-link to="/service-details">Writing & Translation</n-link></li>
-                                        <li><n-link to="/service-details">Consulting</n-link></li>
-                                        <li><n-link to="/service-details">Lifestyle</n-link></li>
+                                        <li><n-link to="">Music & Audio</n-link></li>
+                                        <li><n-link to="">Video & Animation</n-link></li>
+                                        <li><n-link to="">Writing & Translation</n-link></li>
+                                        <li><n-link to="">Consulting</n-link></li>
+                                        <li><n-link to="">Lifestyle</n-link></li>
                                     </ul>
                                 </div>
                             </div>
@@ -97,12 +97,12 @@
                         <img class="line-shape" src="/images/shape/line-s1.png" alt="Virtuf-HasTech">
                         <nav class="widget-menu-wrap">
                             <ul class="nav-menu nav">
-                                <li><n-link to="/">Group Profile</n-link></li>
-                                <li><n-link to="/">Vision & Values</n-link></li>
-                                <li><n-link to="/">Company History</n-link></li>
-                                <li><n-link to="/">Careers</n-link></li>
-                                <li><n-link to="/">Winning Awards</n-link></li>
-                                <li><n-link to="/">Sustainability</n-link></li>
+                                <li><n-link to="">Group Profile</n-link></li>
+                                <li><n-link to="">Vision & Values</n-link></li>
+                                <li><n-link to="">Company History</n-link></li>
+                                <li><n-link to="">Careers</n-link></li>
+                                <li><n-link to="">Winning Awards</n-link></li>
+                                <li><n-link to="">Sustainability</n-link></li>
                             </ul>
                         </nav>
                     </div>

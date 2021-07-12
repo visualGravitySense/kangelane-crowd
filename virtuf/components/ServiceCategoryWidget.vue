@@ -11,32 +11,32 @@
                 <!--{{ category }}-->
             <!--</n-link>-->
 
-          <n-link to="/service-web">
+          <n-link to="">
             <i class="icofont-double-right"></i>
             <span>Web Development</span>
           </n-link>
 
-          <n-link to="/service-analysis">
+          <n-link to="">
             <i class="icofont-double-right"></i>
             <span>Market Analysis</span>
           </n-link>
 
-          <n-link to="/service-brand">
+          <n-link to="">
             <i class="icofont-double-right"></i>
             <span>Brand Identity</span>
           </n-link>
 
-          <n-link to="/service-consultation">
+          <n-link to="">
             <i class="icofont-double-right"></i>
             <span>Business Consultation</span>
           </n-link>
 
-          <n-link to="/service-sem">
+          <n-link to="">
             <i class="icofont-double-right"></i>
             <span>SEO Marketing</span>
           </n-link>
 
-          <n-link to="/service-design">
+          <n-link to="">
             <i class="icofont-double-right"></i>
             <span>UX & UI Design</span>
           </n-link>

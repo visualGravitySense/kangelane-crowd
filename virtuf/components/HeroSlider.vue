@@ -16,8 +16,8 @@
                                     <h2>Unlimited Learning for <span>Creation and Business.</span></h2>
 
                                 </div>
-                                <p>Get the skills you need for as little as €12.99. Sale ends today.</p>
-                                <n-link to="/creators" class="btn btn-theme btn-theme-color2">Get started <i class="icon icofont-long-arrow-right"></i></n-link>
+                                <p>Get the skills you need for as little as 12.99€.</p>
+                                <n-link to="/classes" class="btn btn-theme btn-theme-color2">Get started <i class="icon icofont-long-arrow-right"></i></n-link>
                             </div>
                             <div class="layer-style">
                                 <div class="thumb">
@@ -66,7 +66,7 @@
 
                         </div>
                         <p>Support your educational work with a monthly subscription.</p>
-                        <n-link to="/creators" class="btn btn-theme btn-theme-color2">For Lectors <i class="icon icofont-long-arrow-right"></i></n-link>
+                        <n-link to="" class="btn btn-theme btn-theme-color2">For Lectors <i class="icon icofont-long-arrow-right"></i></n-link>
                       </div>
                       <div class="layer-style">
                         <div class="thumb">
@@ -113,8 +113,8 @@
                                 <div class="tittle-wrp">
                                     <h2>The Diverse Path to <span>Business Success.</span></h2>
                                 </div>
-                                <p>Find the perfect classes for your business.</p>
-                                <n-link to="/service" class="btn btn-theme btn-theme-color2">All Services <i class="icon icofont-long-arrow-right"></i></n-link>
+                                <p>Find the perfect classes and content for your business.</p>
+                                <n-link to="" class="btn btn-theme btn-theme-color2">For Business<i class="icon icofont-long-arrow-right"></i></n-link>
                             </div>
                             <div class="layer-style">
                                 <div class="thumb">

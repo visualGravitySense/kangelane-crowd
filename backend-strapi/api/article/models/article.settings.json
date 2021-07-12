@@ -86,6 +86,9 @@
     },
     "quote": {
       "type": "string"
+    },
+    "aboutauthor": {
+      "type": "string"
     }
   }
 }

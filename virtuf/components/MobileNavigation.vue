@@ -5,42 +5,51 @@
                 <li>
                     <n-link to="/">Home</n-link>
                 </li>
+
                 <li>
-                    <n-link to="/about">About</n-link>
+                    <n-link to="/classes">Classes</n-link>
                 </li>
-                <li class="has-children">
-                    <n-link to="/service">Service</n-link>
-                    <ul class="sub-menu">
-                        <li>
-                            <n-link to="/service">Service</n-link>
-                        </li>
-                        <li>
-                            <n-link to="/service-details">Service Details</n-link>
-                        </li>
-                    </ul>
+
+                <li>
+                  <n-link to="/about">About</n-link>
                 </li>
-                <li class="has-children">
-                    <n-link to="/project">Project</n-link>
-                    <ul class="sub-menu">
-                        <li>
-                            <n-link to="/project">Project</n-link>
-                        </li>
-                        <li>
-                            <n-link to="/project-details">Project Details</n-link>
-                        </li>
-                    </ul>
-                </li>
-                <li class="has-children">
-                    <n-link to="/blog">Blog</n-link>
-                    <ul class="sub-menu">
-                        <li>
-                            <n-link to="/blog">Blog</n-link>
-                        </li>
-                        <li>
-                            <n-link to="/blog-details">Blog Details</n-link>
-                        </li>
-                    </ul>
-                </li>
+
+<!--                <li class="has-children">-->
+<!--                    <n-link to="">Service</n-link>-->
+<!--                    <ul class="sub-menu">-->
+<!--                        <li>-->
+<!--                            <n-link to="">Service</n-link>-->
+<!--                        </li>-->
+<!--                        <li>-->
+<!--                            <n-link to="">Service Details</n-link>-->
+<!--                        </li>-->
+<!--                    </ul>-->
+<!--                </li>-->
+
+<!--                <li class="has-children">-->
+<!--                    <n-link to="">Project</n-link>-->
+<!--                    <ul class="sub-menu">-->
+<!--                        <li>-->
+<!--                            <n-link to="">Project</n-link>-->
+<!--                        </li>-->
+<!--                        <li>-->
+<!--                            <n-link to="">Project Details</n-link>-->
+<!--                        </li>-->
+<!--                    </ul>-->
+<!--                </li>-->
+
+<!--                <li class="has-children">-->
+<!--                    <n-link to="">Blog</n-link>-->
+<!--                    <ul class="sub-menu">-->
+<!--                        <li>-->
+<!--                            <n-link to="">Blog</n-link>-->
+<!--                        </li>-->
+<!--                        <li>-->
+<!--                            <n-link to="">Blog Details</n-link>-->
+<!--                        </li>-->
+<!--                    </ul>-->
+<!--                </li>-->
+
                 <li>
                     <n-link to="/contact">Contact</n-link>
                 </li>
@@ -55,18 +64,18 @@
             const offCanvasNav = document.querySelector('#offcanvas-navigation');
             const offCanvasNavSubMenu = offCanvasNav.querySelectorAll('.sub-menu');
             const anchorLinks = offCanvasNav.querySelectorAll('a');
-        
+
             for (let i = 0; i < offCanvasNavSubMenu.length; i++){
                 offCanvasNavSubMenu[i].insertAdjacentHTML("beforebegin", "<span class='menu-expand'><i></i></span>");
             }
-        
+
             const menuExpand = offCanvasNav.querySelectorAll('.menu-expand');
             const numMenuExpand = menuExpand.length;
-        
+
             for (let i = 0; i < numMenuExpand; i++) {
                 menuExpand[i].addEventListener("click", (e) => {sideMenuExpand(e)});
             }
-        
+
             for (let i = 0; i < anchorLinks.length; i++) {
                 anchorLinks[i].addEventListener("click", () => {closeMobileMenu()});
             }

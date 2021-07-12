@@ -8,8 +8,8 @@
                 <img src="/images/shape/line-s1.png" alt="Image">
             </div>
             <h4>{{ service.title }}</h4>
-            <p>{{ service.desc }}</p>
-            <n-link to="/service-details" class="btn-link">Read More <i class="icon icofont-arrow-right"></i></n-link>
+<!--            <p>{{ service.desc }}</p>-->
+            <n-link to="" class="btn-link">More Classes <i class="icon icofont-arrow-right"></i></n-link>
         </div>
         <div class="icon-shape">
             <img class="shape-img1" src="/images/shape/s1.png" alt="Icon">

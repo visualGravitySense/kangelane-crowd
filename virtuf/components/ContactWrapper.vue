@@ -9,8 +9,8 @@
                     <div class="content">
                         <h4>Call Us.</h4>
                         <img class="line-icon" src="/images/shape/line-s1.png" alt="Icon">
-                        <a href="tel://88123456789">(88) 123 456 789</a>
-                        <a href="tel://000111234567">000 111 234 567</a>
+                        <a href="tel://0037258976398">+37258976398</a>
+<!--                        <a href="tel://000111234567">000 111 234 567</a>-->
                     </div>
                 </div>
                 <div class="contact-info-item">
@@ -20,8 +20,8 @@
                     <div class="content">
                         <h4>Email.</h4>
                         <img class="line-icon" src="/images/shape/line-s1.png" alt="Icon">
-                        <a href="mailto://support@gmail.com">support@gmail.com</a>
-                        <a href="mailto://domain@gmail.com">domain@gmail.com</a>
+                        <a href="mailto://kangelane@deepfatsnail.eu">kangelane@deepfatsnail.eu</a>
+<!--                        <a href="mailto://domain@gmail.com">domain@gmail.com</a>-->
                     </div>
                 </div>
                 <div class="contact-info-item">
@@ -31,7 +31,7 @@
                     <div class="content">
                         <h4>Location.</h4>
                         <img class="line-icon" src="/images/shape/line-s1.png" alt="Icon">
-                        <p>Your address goes here <br>New York, USA</p>
+                        <p>Pae 21, Tallinn <br>Estonia</p>
                     </div>
                 </div>
             </div>
@@ -41,7 +41,7 @@
                 <div class="col-lg-12">
                     <div class="contact-colunm" data-aos="fade-up" data-aos-duration="1000">
                         <div class="contact-map-area">
-                            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3151.8402891185374!2d144.95373631590425!3d-37.81720974201477!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x6ad65d4c2b349649%3A0xb6899234e561db11!2sEnvato!5e0!3m2!1sen!2ssg!4v1607294780661!5m2!1sen!2ssg"></iframe>
+                            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2029.0348339706563!2d24.80843261631796!3d59.43249358169506!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4692ecadd0d76b83%3A0x2258a21b30d2ee9e!2sPae%2021%2C%2011414%20Tallinn!5e0!3m2!1sen!2see!4v1626113183220!5m2!1sen!2see" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
                         </div>
                         <div class="contact-form">
                             <form class="contact-form-wrapper">
