@@ -1,7 +1,8 @@
 import axios from 'axios'
 
 export const state = () => ({
-  postsLoaded: []
+  postsLoaded: [],
+  itemsLoaded: []
   // token: null
 })
 
@@ -9,6 +10,11 @@ export const mutations = {
   setPosts (state, blogs) {
     state.postsLoaded = blogs
   },
+
+  setStock (state, items) {
+      // console.log(items)
+    state.itemsLoaded = items
+    },
 
   // addPost (state, blog) {
   //   // console.log(blog)
@@ -47,6 +53,25 @@ export const actions = {
       })
       .catch(e => console.log(e))
   },
+
+  // >> >> >> << << <<
+  // Eksperiment With Add Stock
+  // addStock ({commit}, items) {
+    // console.log(blog)
+    // console.log('Hello STORE!!! - Add Post script worked from STORE!!!')
+    // return axios.get('http://localhost:1337/articles')
+    //   .then(res => {
+    //     console.log(res)
+    //     const stockArray = []
+    //     for (let key in res.data) {
+    //       stockArray.push( { ...res.data[key] } )
+    //     }
+        // Res
+  //       commit('setStock', stockArray)
+  //     })
+  //     .catch(e => console.log(e))
+  // },
+
 
   // addPost ({commit}, blog) {
   //   console.log(blog)
@@ -96,6 +121,6 @@ export const actions = {
 
 export const getters = {
   getPostsLoaded (state) {
-    return state.postsLoaded
+    return state.itemsLoaded
   }
 }

@@ -24,7 +24,7 @@
 
         <LectorsSection class="team-default-area" />
 
-        <AboutTwo />
+
 
 <!--        <PortfolioSection />-->
 <!--        <TestimonialOne />-->
