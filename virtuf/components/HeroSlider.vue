@@ -62,7 +62,7 @@
                           <h6>For Lectors</h6>
                         </div>
                         <div class="tittle-wrp">
-                          <h2>Fundraising platform for <span>Classes.</span></h2>
+                          <h2>Platform for <span>Classes.</span></h2>
 
                         </div>
                         <p>Support your educational work with a monthly subscription.</p>
