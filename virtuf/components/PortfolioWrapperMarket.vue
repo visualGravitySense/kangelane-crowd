@@ -2,6 +2,16 @@
     <section class="portfolio-area">
         <div class="container">
             <div class="row">
+
+              <div class="section-title text-center" data-aos="fade-up" data-aos-duration="1000">
+                <h2 class="title">Marketplace on  <span class="bottom-style">Kangelane</span></h2>
+                <div class="desc">
+                  <p class="mt-20" >On Kangelane, you can find your business needs and be
+                    <u class="text-theme-color2">a part of creative community in Estonia.</u>
+                    You get access to exclusive content, classes, community, and insight into creative process of creators.</p>
+                </div>
+              </div>
+
                 <div class="col-lg-12">
                     <div class="section-title text-center" data-aos="fade-up" data-aos-duration="1000">
                         <div class="portfolio-filter-menu mb-0">

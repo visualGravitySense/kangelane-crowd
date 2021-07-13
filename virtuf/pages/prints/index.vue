@@ -5,7 +5,8 @@
 
     <OffCanvasMobileMenu />
 
-    <PageTitle title="Chalenges" breadcrumbTitle="Chalenges" />
+<!--    CHALLENGES    -->
+    <PageTitle title="Prints" breadcrumbTitle="Prints" />
 
     <ChalengesWrapper />
 

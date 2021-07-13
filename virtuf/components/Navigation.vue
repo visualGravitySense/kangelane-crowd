@@ -84,9 +84,9 @@
             <!--</ul>-->
         <!--</li>-->
 
-<!--        <li>-->
-<!--            <n-link to="/contact">Contact</n-link>-->
-<!--        </li>-->
+        <li>
+            <n-link to="/contact">Contact</n-link>
+        </li>
 
 
     </ul>

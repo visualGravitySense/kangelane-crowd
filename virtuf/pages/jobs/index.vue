@@ -7,7 +7,7 @@
 
         <PageTitle title="Job Offers" breadcrumbTitle="Jobs" />
 <!--      ERROR-->
-<!--        <JobsWrapper />-->
+        <JobsWrapper />
 
         <ContactDevider />
 
