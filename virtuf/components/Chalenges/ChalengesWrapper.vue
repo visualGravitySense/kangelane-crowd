@@ -13,7 +13,7 @@
               </div>
 
                 <div class="col-12">
-                    <div class="blog-content-column">
+<!--                    <div class="blog-content-column">-->
                         <div class="blog-content-area post-items-style2">
                             <!--== Start Blog Post Item ==-->
                             <div class="post-item" data-aos="fade-up" data-aos-duration="1000" v-for="(blog, index) in blogs" :key="index">
@@ -42,34 +42,34 @@
                                         <img src="/images/shape/line-s1.png" alt="shape">
                                     </div>
                                     <p>{{ blog.excerpt }}</p>
-                                    <n-link :to="blog.link" class="btn btn-theme btn-border btn-gray">Read More <i class="icon icofont-long-arrow-right"></i></n-link>
+                                    <a href="mailto:kangelaneshop@deepfatsnail.eu" class="btn btn-theme btn-border btn-gray">Buy item <i class="icon icofont-long-arrow-right"></i></a>
                                 </div>
                             </div>
                             <!--== End Blog Post Item ==-->
 
-                            <Pagination />
+<!--                            <Pagination />-->
                         </div>
 
-                        <div class="sidebar-area">
+<!--                        <div class="sidebar-area">-->
 
                           <!--<WidgetTags />-->
 
-                            <FilterTags />
+<!--                            <FilterTags />-->
 
                             <!--<WidgetSearch />-->
 
-                            <ServiceCategoryWidget />
+<!--                            <ServiceCategoryWidget />-->
 
                             <!--<WidgetVideo />-->
 
-                            <WidgetSocial />
+<!--                            <WidgetSocial />-->
 
                             <!--<WidgetRecentPost />-->
 
 
-                        </div>
+<!--                        </div>-->
 
-                    </div>
+<!--                    </div>-->
                 </div>
             </div>
         </div>

@@ -12,7 +12,7 @@
                                 <div class="content">
                                     <h4>Call Us.</h4>
                                     <img class="line-icon" src="/images/shape/line-s1.png" alt="Icon">
-                                    <a href="tel://0037258976398">+372 5897 6398</a>
+                                    <a href="tel:0037258976398">+372 5897 6398</a>
 <!--                                    <a href="tel://0123456789">0123456789</a>-->
                                 </div>
                             </div>
@@ -51,14 +51,16 @@
                                 <img src="/images/logo/logo.png" alt="Logo">
                             </n-link>
                             <p>On Kangelane, you can find your business needs and be a part of creative community in Estonia. You get access to exclusive content, community, and insight into creative process of creators.</p>
-                            <div class="widget-newsletter">
-                                <form>
-                                    <input type="email" class="form-control" placeholder="Enter your email">
-                                    <button type="submit" class="btn btn-theme">
-                                        Subscribe Now <i class="icon icofont-long-arrow-right"></i>
-                                    </button>
-                                </form>
-                            </div>
+
+<!--                           <div class="widget-newsletter">-->
+<!--                                <form>-->
+<!--                                    <input type="email" class="form-control" placeholder="Enter your email">-->
+<!--                                    <button type="submit" class="btn btn-theme">-->
+<!--                                        Subscribe Now <i class="icon icofont-long-arrow-right"></i>-->
+<!--                                    </button>-->
+<!--                                </form>-->
+<!--                            </div>-->
+
                         </div>
                     </div>
                 </div>

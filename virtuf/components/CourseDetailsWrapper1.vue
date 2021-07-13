@@ -11,7 +11,7 @@ Razrabotka vseh logotipov: v raznyx dizajnax formatah
         <div class="container">
             <div class="row">
                 <div class="col-12">
-                    <div class="blog-details-column">
+<!--                    <div class="blog-details-column">-->
                         <div class="post-details-content">
                             <div class="post-details-body">
                                 <div class="content" data-aos="fade-up" data-aos-duration="1000">
@@ -75,39 +75,41 @@ Razrabotka vseh logotipov: v raznyx dizajnax formatah
                                         </div>
                                     </div>
                                 </div>
-                                <div class="page-navigation" data-aos="fade-up" data-aos-duration="1000">
-                                    <div class="nav-item prev">
-                                        <div class="thumb">
-                                            <img src="/images/portfolio/nav1.jpg" alt="image">
-                                            <n-link to="/blog-details"><i class="icofont-double-left"></i></n-link>
-                                        </div>
-                                        <div class="content">
-                                            <img class="line-shape" src="/images/shape/line-s1.png" alt="image">
-                                            <h4>
-                                                <n-link to="/blog-details">Digital <br>Marketing</n-link>
-                                            </h4>
-                                            <n-link to="/blog" class="post-date">07 Jan, 2021</n-link>
-                                        </div>
-                                    </div>
-                                    <div class="nav-item-center">
-                                        <n-link to="/blog">
-                                            <img src="/images/icons/dot.png" alt="image">
-                                        </n-link>
-                                    </div>
-                                    <div class="nav-item next">
-                                        <div class="thumb">
-                                            <img src="/images/portfolio/nav2.jpg" alt="image">
-                                            <n-link to="/blog-details"><i class="icofont-double-right"></i></n-link>
-                                        </div>
-                                        <div class="content">
-                                            <img class="line-shape" src="/images/shape/line-s1.png" alt="image">
-                                            <h4>
-                                                <n-link to="/blog-details">Business <br>Consulting</n-link>
-                                            </h4>
-                                            <n-link to="/blog-details" class="post-date">07 Jan, 2021</n-link>
-                                        </div>
-                                    </div>
-                                </div>
+
+<!--                              NEXT AND PREVIEWS POST-->
+<!--                                <div class="page-navigation" data-aos="fade-up" data-aos-duration="1000">-->
+<!--                                    <div class="nav-item prev">-->
+<!--                                        <div class="thumb">-->
+<!--                                            <img src="/images/portfolio/nav1.jpg" alt="image">-->
+<!--                                            <n-link to="/blog-details"><i class="icofont-double-left"></i></n-link>-->
+<!--                                        </div>-->
+<!--                                        <div class="content">-->
+<!--                                            <img class="line-shape" src="/images/shape/line-s1.png" alt="image">-->
+<!--                                            <h4>-->
+<!--                                                <n-link to="/blog-details">Digital <br>Marketing</n-link>-->
+<!--                                            </h4>-->
+<!--                                            <n-link to="/blog" class="post-date">07 Jan, 2021</n-link>-->
+<!--                                        </div>-->
+<!--                                    </div>-->
+<!--                                    <div class="nav-item-center">-->
+<!--                                        <n-link to="/blog">-->
+<!--                                            <img src="/images/icons/dot.png" alt="image">-->
+<!--                                        </n-link>-->
+<!--                                    </div>-->
+<!--                                    <div class="nav-item next">-->
+<!--                                        <div class="thumb">-->
+<!--                                            <img src="/images/portfolio/nav2.jpg" alt="image">-->
+<!--                                            <n-link to="/blog-details"><i class="icofont-double-right"></i></n-link>-->
+<!--                                        </div>-->
+<!--                                        <div class="content">-->
+<!--                                            <img class="line-shape" src="/images/shape/line-s1.png" alt="image">-->
+<!--                                            <h4>-->
+<!--                                                <n-link to="/blog-details">Business <br>Consulting</n-link>-->
+<!--                                            </h4>-->
+<!--                                            <n-link to="/blog-details" class="post-date">07 Jan, 2021</n-link>-->
+<!--                                        </div>-->
+<!--                                    </div>-->
+<!--                                </div>-->
 
 <!--                                <PostAuthorInfoSv />-->
 <!--                                <PostAuthorInfo />-->
@@ -142,21 +144,21 @@ Razrabotka vseh logotipov: v raznyx dizajnax formatah
                             </div>
                         </div>
 
-                        <div class="sidebar-area">
-                            <WidgetSearch />
+<!--                        <div class="sidebar-area">-->
+<!--                            <WidgetSearch />-->
 
-                            <ServiceCategoryWidget />
+<!--                            <ServiceCategoryWidget />-->
 
-                            <WidgetVideo />
+<!--                            <WidgetVideo />-->
 
-                            <WidgetSocial />
+<!--                            <WidgetSocial />-->
 
-                            <WidgetRecentPost />
+<!--                            <WidgetRecentPost />-->
 
-                            <WidgetTags />
-                        </div>
+<!--                            <WidgetTags />-->
+<!--                        </div>-->
 
-                    </div>
+<!--                    </div>-->
                 </div>
             </div>
         </div>

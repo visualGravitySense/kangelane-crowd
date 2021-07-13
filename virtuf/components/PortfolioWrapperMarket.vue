@@ -43,9 +43,7 @@
                                 </h3>
                                 <n-link to="/project-details" class="category">{{ portfolio.category }}</n-link>
                             </div>
-                            <n-link to="/project-details" class="btn-icon">
-                                <i class="icofont-long-arrow-right"></i>
-                            </n-link>
+                          <a href="mailto:kangelaneshop@deepfatsnail.eu" class="btn btn-theme btn-border btn-gray">Buy item <i class="icon icofont-long-arrow-right"></i></a>
                         </div>
                     </div>
                 </div>
