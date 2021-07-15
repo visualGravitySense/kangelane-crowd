@@ -13,7 +13,7 @@ Razrabotka vseh logotipov: v raznyx dizajnax formatah
                 <div class="col-12">
 
 <!--                  TESTING THE MARKET CONNECTION WITH STORE-->
-                  <products />
+<!--                  <products />-->
 
 <!--                    <div class="blog-details-column">-->
                         <div class="post-details-content">
