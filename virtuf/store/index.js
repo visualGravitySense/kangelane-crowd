@@ -2,7 +2,7 @@ import axios from 'axios'
 
 export const state = () => ({
   postsLoaded: [],
-  itemsLoaded: []
+  // itemsLoaded: []
   // token: null
 })
 
@@ -11,10 +11,10 @@ export const mutations = {
     state.postsLoaded = blogs
   },
 
-  setStock (state, items) {
-      // console.log(items)
-    state.itemsLoaded = items
-    },
+  // setStock (state, items) {
+  //     // console.log(items)
+  //   state.itemsLoaded = items
+  //   },
 
   // addPost (state, blog) {
   //   // console.log(blog)
@@ -121,6 +121,6 @@ export const actions = {
 
 export const getters = {
   getPostsLoaded (state) {
-    return state.itemsLoaded
+    return state.postsLoaded
   }
 }

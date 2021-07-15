@@ -40,6 +40,8 @@
 <!--                            </n-link>-->
 <!--                        </div>-->
 
+
+
                         <div class="thumb">
                           <div  v-if="blogs.imgTitle !== null">
                             <img :src="`http://localhost:1337${blogs.imgTitle.url}`" :alt="blogs.name">
@@ -59,7 +61,7 @@
                                 <p class="">
                                   {{ blogs.shortDescr }}
                                 </p>
-                                <n-link to="/project-details" class="category">{{ blogs.category }}</n-link>
+                                <n-link to="" class="category">{{ blogs.category }}</n-link>
                             </div>
                             <n-link :to="/classes/+blogs.id" class="btn-icon">
                                 <i class="icofont-long-arrow-right"></i>
@@ -88,7 +90,7 @@
         //     return {
         //         mixer: null,
         //
-        //         portfolios: [
+        //         blogs: [
         //             {
         //                 imgSrc: "/images/portfolio/1.jpg",
         //                 title: "Business Management",
