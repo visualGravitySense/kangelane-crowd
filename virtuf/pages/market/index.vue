@@ -30,7 +30,7 @@ export default {
     Header: () => import('@/components/Header'),
     OffCanvasMobileMenu: () => import('@/components/OffCanvasMobileMenu'),
     PageTitle: () => import('@/components/PageTitle'),
-    PortfolioWrapperClasses: () => import('@/components/PortfolioWrapperClasses'),
+    PortfolioWrapperMarket: () => import('@/components/PortfolioWrapperMarket'),
     ContactDevider: () => import('@/components/ContactDevider'),
     Footer: () => import('@/components/Footer'),
   },

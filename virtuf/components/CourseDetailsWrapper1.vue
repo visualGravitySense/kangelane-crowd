@@ -11,6 +11,10 @@ Razrabotka vseh logotipov: v raznyx dizajnax formatah
         <div class="container">
             <div class="row">
                 <div class="col-12">
+
+<!--                  TESTING THE MARKET CONNECTION WITH STORE-->
+                  <products />
+
 <!--                    <div class="blog-details-column">-->
                         <div class="post-details-content">
                             <div class="post-details-body">
@@ -76,6 +80,7 @@ Razrabotka vseh logotipov: v raznyx dizajnax formatah
                                     </div>
                                 </div>
 
+<!--                        DO NOT DELETE!!! -->
 <!--                              NEXT AND PREVIEWS POST-->
 <!--                                <div class="page-navigation" data-aos="fade-up" data-aos-duration="1000">-->
 <!--                                    <div class="nav-item prev">-->
@@ -122,8 +127,10 @@ Razrabotka vseh logotipov: v raznyx dizajnax formatah
                                     <h4 class="title"> {{ blog.author }} </h4>
                                     <img class="line-shape" src="/images/shape/line-s1.png" alt="image">
                                       <p>
+<!--                                        NEED A PIC FROM THE AUTHOR-->
                                       {{ blog.aboutauthor }}
                                       </p>
+<!--                                        NEED A SOCIAL MEDIA KINKS FROM THE AUTHOR-->
                                     <div class="social-icons">
                                       <a href="#"><i class="icofont-facebook"></i></a>
                                       <a href="#"><i class="icofont-skype"></i></a>
@@ -170,6 +177,7 @@ Razrabotka vseh logotipov: v raznyx dizajnax formatah
     export default {
         components: {
             PostAuthorInfo: () => import('@/components/PostAuthorInfo'),
+            Products: () => import('@/components/Market/Products'),
             CommentList: () => import('@/components/CommentList'),
             CommentForm: () => import('@/components/CommentForm'),
             WidgetSearch: () => import('@/components/WidgetSearch'),
@@ -206,10 +214,10 @@ Razrabotka vseh logotipov: v raznyx dizajnax formatah
           }
         },
 
-        // computed: {
-        //   blogs () {
-        //     return this.$store.getters.getPostsLoaded
-        //   }
-        // },
+        computed: {
+          blogs () {
+            return this.$store.getters.getPostsLoaded
+          }
+        },
     };
 </script>

@@ -7,6 +7,8 @@
 
     <PageTitle :title="blog.name" breadcrumbTitle="Classes"  />
 
+<!--    <NewProduct />-->
+
     <CourseDetailsWrapper1  :blog="blog"/>
 
     <ContactDevider/>
@@ -31,6 +33,7 @@ export default {
     OffCanvasMobileMenu: () => import('@/components/OffCanvasMobileMenu'),
     PageTitle: () => import('@/components/PageTitle'),
     CourseDetailsWrapper1: () => import('@/components/CourseDetailsWrapper1'),
+    NewProduct: () => import('@/components/Market/NewProduct'),
     ContactDevider: () => import('@/components/ContactDevider'),
     Footer: () => import('@/components/Footer'),
   },
