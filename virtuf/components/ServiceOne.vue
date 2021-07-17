@@ -39,17 +39,17 @@
                         desc: "Lorem Ipsum is simply dummy text the printing and typesetting industry has been the industry's standard."
                     },
                     {
-                        icon: "/images/icons/as2.png",
+                        icon: "/images/icons/as6.png",
                         title: "Music & Audio",
                         desc: "Lorem Ipsum is simply dummy text the printing and typesetting industry has been the industry's standard."
                     },
                     {
-                        icon: "/images/icons/as3.png",
+                        icon: "/images/icons/as4.png",
                         title: "Programming & Tech",
                         desc: "Lorem Ipsum is simply dummy text the printing and typesetting industry has been the industry's standard."
                     },
                     {
-                        icon: "/images/icons/as4.png",
+                        icon: "/images/icons/as2.png",
                         title: "Digital Marketing",
                         desc: "Lorem Ipsum is simply dummy text the printing and typesetting industry has been the industry's standard."
                     },
@@ -59,7 +59,7 @@
                         desc: "Lorem Ipsum is simply dummy text the printing and typesetting industry has been the industry's standard."
                     },
                     {
-                        icon: "/images/icons/as6.png",
+                        icon: "/images/icons/as3.png",
                         title: "Writing & Translation",
                         desc: "Lorem Ipsum is simply dummy text the printing and typesetting industry has been the industry's standard."
                     },

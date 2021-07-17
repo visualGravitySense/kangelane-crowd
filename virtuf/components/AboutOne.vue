@@ -12,7 +12,7 @@
                         </div>
                         <ShapeWithAnimation addClassName="shape-style2" imgSrc="/images/shape/circle-shape1.png" data-depth=".6" />
                         <div class="experience-time">
-                            <div class="content">100<sup>+</sup> <span>Lectors on Kangelane</span></div>
+                            <div class="content">30<sup>+</sup> <span>Lectors on Kangelane</span></div>
                         </div>
                     </div>
                 </div>

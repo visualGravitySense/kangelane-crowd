@@ -4,7 +4,7 @@
             <div class="home-slider-container">
                 <swiper :options="swiperOptions">
 
-                    <!-- Start Slide Item -->
+                    <!-- Start Slide Item 1 -->
                     <div class="swiper-slide home-slider-item" :style="{ backgroundImage: `url('/images/slider/bg1.jpg')` }">
                         <div class="slider-content-area">
                             <div class="content">
@@ -16,21 +16,21 @@
                                     <h2>Unlimited Learning for <span>Creation and Business.</span></h2>
 
                                 </div>
-                                <p>Get the skills you need for as little as 12.99€.</p>
+                                <p>Get the skills you need, improve your speciality and take quizzes.</p>
                                 <n-link to="/classes" class="btn btn-theme btn-theme-color2">Get started <i class="icon icofont-long-arrow-right"></i></n-link>
                             </div>
                             <div class="layer-style">
                                 <div class="thumb">
-                                    <img src="/images/slider/3.jpg" alt="Images">
+                                    <img src="/images/slider/1.jpg" alt="Images">
                                 </div>
-                                <div class="success-rate"><div class="content">100+<span>Lectors in</span></div></div>
+                                <div class="success-rate"><div class="content">100+<span>Hero<br>Classes</span></div></div>
                                 <div class="trusted-clients-content">
-                                    <span>Already <br>here</span>
+                                    <span>Popular <br>classes</span>
                                     <ul class="clients-list">
                                         <li><img src="/images/testimonial/clients1.png" alt="Images"></li>
                                         <li><img src="/images/testimonial/clients2.png" alt="Images"></li>
                                         <li><img src="/images/testimonial/clients3.png" alt="Images"></li>
-                                        <li><img src="/images/testimonial/clients4.png" alt="Images"> <span>230+</span></li>
+                                        <li><img src="/images/testimonial/clients4.png" alt="Images"> <span>30+</span></li>
                                     </ul>
                                 </div>
                                 <div class="shape-style1">
@@ -53,33 +53,33 @@
                     </div>
                     <!-- End Slide Item -->
 
-                  <!-- Start Slide Item -->
+                  <!-- Start Slide Item 2 -->
                   <div class="swiper-slide home-slider-item" :style="{ backgroundImage: `url('/images/slider/bg1.jpg')` }">
                     <div class="slider-content-area">
                       <div class="content">
                         <div class="subtitle-content">
                           <img src="/images/shape/line2.png" alt="Images">
-                          <h6>For Lectors</h6>
+                          <h6>For Creators</h6>
                         </div>
                         <div class="tittle-wrp">
-                          <h2>Platform for <span>Classes.</span></h2>
+                          <h2><span>Digital marketplace</span> for content, art and media.</h2>
 
                         </div>
-                        <p>Support your educational work with a monthly subscription.</p>
-                        <n-link to="" class="btn btn-theme btn-theme-color2">For Lectors <i class="icon icofont-long-arrow-right"></i></n-link>
+                        <p>Support your creative work through a sales on marketplace.</p>
+                        <n-link to="/market" class="btn btn-theme btn-theme-color2">Visit marketplace<i class="icon icofont-long-arrow-right"></i></n-link>
                       </div>
                       <div class="layer-style">
                         <div class="thumb">
-                          <img src="/images/slider/1.jpg" alt="Images">
+                          <img src="/images/slider/3.jpg" alt="Images">
                         </div>
                         <div class="success-rate"><div class="content">100%<span>Get Discovered Today</span></div></div>
                         <div class="trusted-clients-content">
-                          <span>Already <br>here</span>
+                          <span>Popular <br>creators</span>
                           <ul class="clients-list">
-                            <li><img src="/images/testimonial/clients1.png" alt="Images"></li>
-                            <li><img src="/images/testimonial/clients2.png" alt="Images"></li>
-                            <li><img src="/images/testimonial/clients3.png" alt="Images"></li>
-                            <li><img src="/images/testimonial/clients4.png" alt="Images"> <span>230+</span></li>
+                            <li><img src="/images/testimonial/clients1b.png" alt="Images"></li>
+                            <li><img src="/images/testimonial/clients2b.png" alt="Images"></li>
+                            <li><img src="/images/testimonial/clients3b.png" alt="Images"></li>
+                            <li><img src="/images/testimonial/clients4b.png" alt="Images"> <span>230+</span></li>
                           </ul>
                         </div>
                         <div class="shape-style1">
@@ -102,19 +102,19 @@
                   </div>
                   <!-- End Slide Item -->
 
-                    <!-- Start Slide Item -->
+                    <!-- Start Slide Item 3 -->
                     <div class="swiper-slide home-slider-item" :style="{ backgroundImage: `url('/images/slider/bg1.jpg')` }">
                         <div class="slider-content-area">
                             <div class="content">
                                 <div class="subtitle-content">
                                     <img src="/images/shape/line2.png" alt="Images">
-                                    <h6>For Business</h6>
+                                    <h6>Lifestyle and business</h6>
                                 </div>
                                 <div class="tittle-wrp">
-                                    <h2>The Diverse Path to <span>Business Success.</span></h2>
+                                    <h2>The diverse path to <span>Success.</span></h2>
                                 </div>
-                                <p>Find the perfect classes and content for your business.</p>
-                                <n-link to="" class="btn btn-theme btn-theme-color2">For Business<i class="icon icofont-long-arrow-right"></i></n-link>
+                                <p>Perfect prints for lifestyle and business.</p>
+                                <n-link to="/prints" class="btn btn-theme btn-theme-color2">Check Prints<i class="icon icofont-long-arrow-right"></i></n-link>
                             </div>
                             <div class="layer-style">
                                 <div class="thumb">
@@ -122,12 +122,12 @@
                                 </div>
                                 <div class="success-rate"><div class="content">98% <span>Successful Project</span></div></div>
                                 <div class="trusted-clients-content">
-                                    <span>Trusted <br>Clients</span>
+                                    <span>New<br>Products</span>
                                     <ul class="clients-list">
-                                        <li><img src="/images/testimonial/clients1.png" alt="Images"></li>
-                                        <li><img src="/images/testimonial/clients2.png" alt="Images"></li>
-                                        <li><img src="/images/testimonial/clients3.png" alt="Images"></li>
-                                        <li><img src="/images/testimonial/clients4.png" alt="Images"> <span>230+</span></li>
+                                        <li><img src="/images/testimonial/clients1c.png" alt="Images"></li>
+                                        <li><img src="/images/testimonial/clients2c.png" alt="Images"></li>
+                                        <li><img src="/images/testimonial/clients3c.png" alt="Images"></li>
+                                        <li><img src="/images/testimonial/clients4c.png" alt="Images"> <span>30+</span></li>
                                     </ul>
                                 </div>
                                 <div class="shape-style1">
@@ -161,9 +161,11 @@
         </div>
         <div class="home-slider-sidebar" data-aos="fade-zoom-in" data-aos-duration="1300">
             <div class="social-icon">
-                <a href="#"><i class="icofont-facebook"></i></a>
-                <a href="#"><i class="icofont-skype"></i></a>
-                <a href="#"><i class="icofont-twitter"></i></a>
+                <a href="https://www.facebook.com/kangelane.on"><i class="icofont-facebook"></i></a>
+<!--                <a href="https://www.youtube.com"><i class="icofont-youtube"></i></a>-->
+                <a href="https://www.instagram.com/kangelane.on/"><i class="icofont-instagram"></i></a>
+                <a href="https://t.me/kangelane_online"><i class="icofont-telegram"></i></a>
+<!--                <a href="https://vk.com"><i class="icofont-vk"></i></a>-->
             </div>
         </div>
     </section>

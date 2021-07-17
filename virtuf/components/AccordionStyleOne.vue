@@ -14,7 +14,7 @@
                 <b-card-body>
                     <b-card-text>
                       That depends upon the task, but average decision accept time is 1-2 days.
-                      Minimum price for the separate class is 1€ (euro). The amount of slots is
+                      The amount of slots is
                       unlimited, but to have many slots can break the focus.
                       And if you don't know how to start -
                       we have also support team.
@@ -29,15 +29,13 @@
                         <i class="icon icofont-plus"></i>
                         <i class="icon icofont-minus"></i>
                     </span>
-                    How to get business services?
+                    How to get your services?
                 </b-button>
             </b-card-header>
             <b-collapse id="accordion-2" visible accordion="my-accordion">
                 <b-card-body>
                     <b-card-text>
-                      First step is intro request. After that manager or designer shall draw low fidelity wireframe
-                      for the solution and get it approved. Then we shall create product based on the
-                      wireframe and make it shine.
+                      First step is intro request. After that manager will add your class add, product or print to the base.
                     </b-card-text>
                 </b-card-body>
             </b-collapse>
@@ -73,7 +71,7 @@
             <b-collapse id="accordion-4" visible accordion="my-accordion">
                 <b-card-body>
                     <b-card-text>
-                      We are a diverse team, but our headquarters is in Helsinki and Tallinn.
+                      We are a diverse team, but our headquarter is in Tallinn.
                     </b-card-text>
                 </b-card-body>
             </b-collapse>
