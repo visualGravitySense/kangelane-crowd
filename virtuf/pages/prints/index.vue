@@ -8,7 +8,7 @@
 <!--    CHALLENGES    -->
     <PageTitle title="Prints" breadcrumbTitle="Prints" />
 
-    <ChalengesWrapper />
+    <Prints :products="products"/>
 
     <ContactDevider />
 
@@ -25,21 +25,33 @@
 </template>
 
 <script>
+import axios from "axios";
+
 export default {
   components: {
     Header: () => import('@/components/Header'),
     OffCanvasMobileMenu: () => import('@/components/OffCanvasMobileMenu'),
     PageTitle: () => import('@/components/PageTitle'),
-    ChalengesWrapper: () => import('@/components/Chalenges/ChalengesWrapper'),
+    Prints: () => import('@/components/Prints/Prints'),
     ContactDevider: () => import('@/components/ContactDevider'),
     Footer: () => import('@/components/Footer'),
   },
 
   head() {
     return {
-      title: 'Blog'
+      title: 'Prints'
     }
   },
+
+  async asyncData (context) {
+    let [products] = await Promise.all([
+      axios.get(`http://localhost:1337/prints/`)
+
+    ])
+    return {
+      products: products.data
+    }
+  }
 };
 </script>
 

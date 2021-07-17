@@ -90,7 +90,6 @@
 <script>
 export default {
 
-
   props: {
     products: {
       type: Array,

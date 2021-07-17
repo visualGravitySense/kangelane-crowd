@@ -1,0 +1,47 @@
+{
+  "kind": "collectionType",
+  "collectionName": "prints",
+  "info": {
+    "name": "Prints",
+    "description": ""
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "imgSrc": {
+      "model": "file",
+      "via": "related",
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos"
+      ],
+      "plugin": "upload",
+      "required": false,
+      "pluginOptions": {}
+    },
+    "excerpt": {
+      "type": "string"
+    },
+    "author": {
+      "type": "string"
+    },
+    "category": {
+      "type": "enumeration",
+      "enum": [
+        "framePrint",
+        "tShirt",
+        "hoody",
+        "poster",
+        "other"
+      ]
+    }
+  }
+}
