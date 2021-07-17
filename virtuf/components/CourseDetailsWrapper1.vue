@@ -13,7 +13,8 @@ Razrabotka vseh logotipov: v raznyx dizajnax formatah
                 <div class="col-12">
 
 <!--                  TESTING THE MARKET CONNECTION WITH STORE-->
-<!--                  <products />-->
+<!--                  <products :products="products" />-->
+<!--                  <products :products="products" />-->
 
 <!--                    <div class="blog-details-column">-->
                         <div class="post-details-content">
@@ -34,7 +35,7 @@ Razrabotka vseh logotipov: v raznyx dizajnax formatah
                                         </div>
                                     </div>
                                     <p>
-                                      {{ blog.intro}}
+                                      {{ blog.intro }}
                                       </p>
 
                                     <div class="thumb">
@@ -173,7 +174,7 @@ Razrabotka vseh logotipov: v raznyx dizajnax formatah
 </template>
 
 <script>
-
+import axios from 'axios'
     export default {
         components: {
             PostAuthorInfo: () => import('@/components/PostAuthorInfo'),
@@ -189,14 +190,16 @@ Razrabotka vseh logotipov: v raznyx dizajnax formatah
         },
         name: "Class",
 
-        // async asyncData (context) {
-        //   let [blog] = await Promise.all([
-        //     axios.get(`http://localhost:1337/articles/${context.params.id}`)
-        //   ])
-        //   return {
-        //     blog: blog.data
-        //   }
-        // },
+        async asyncData (context) {
+          let [blog, products] = await Promise.all([
+            axios.get(`http://localhost:1337/articles/${context.params.id}`),
+            // axios.get(`http://localhost:1337/articles/`)
+          ])
+          return {
+            blog: blog.data,
+            // products: products.data
+          }
+        },
 
         // data () {
         //   return {
@@ -204,6 +207,45 @@ Razrabotka vseh logotipov: v raznyx dizajnax formatah
         //       id: 1,
         //       name: "Test Name"
         //     }
+        //   }
+        // },
+
+        // data() {
+        //   return {
+        //     mixer: null,
+        //
+        //     products: [
+        //       {
+        //         imgSrc: "/images/portfolio/1.jpg",
+        //         title: "Management Illustrations",
+        //         category: "graphics"
+        //       },
+        //       {
+        //         imgSrc: "/images/portfolio/2.jpg",
+        //         title: "Product Mockup",
+        //         category: "video"
+        //       },
+        //       {
+        //         imgSrc: "/images/portfolio/3.jpg",
+        //         title: "Constructions",
+        //         category: "book"
+        //       },
+        //       {
+        //         imgSrc: "/images/portfolio/4.jpg",
+        //         title: "Product Page",
+        //         category: "template"
+        //       },
+        //       {
+        //         imgSrc: "/images/portfolio/5.jpg",
+        //         title: "Interior Design",
+        //         category: "models"
+        //       },
+        //       {
+        //         imgSrc: "/images/portfolio/6.jpg",
+        //         title: "Digital Marketing Hacks",
+        //         category: "book"
+        //       },
+        //     ]
         //   }
         // },
 

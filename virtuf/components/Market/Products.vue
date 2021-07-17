@@ -33,16 +33,21 @@
       <div class="row portfolio-grid gutter-50 box" data-aos="fade-up" data-aos-duration="1000">
                 <div class="col-md-6 portfolio-item mix" :class="product.category" v-for="(product, index) in products" :key="index">
                   <div class="inner-content">
+
                     <div class="thumb">
-                      <n-link to="">
-                        <img :src="product.imgSrc" :alt="product.title"/>
-                      </n-link>
+                      <div v-if="product.titleImg !== null">
+                        <img :src="`http://localhost:1337${product.titleImg.url}`" :alt="product.name">
+
+                      </div>
+                      <span v-else>No immage</span>
                     </div>
+
                     <div class="portfolio-info">
                       <div class="content">
                         <img class="shape-line-img" src="/images/shape/line-s1.png" alt="shape image">
                         <h3 class="title">
-                          <n-link to="">{{ product.title }}</n-link>
+                          <n-link :to="/market/+product.id">{{ product.title }}</n-link>
+<!--                          <n-link :to="/classes/+blogs.id" class="btn-icon">-->
                         </h3>
                         <n-link to="" class="category">{{ product.category }}</n-link>
                       </div>
@@ -84,42 +89,12 @@
 
 <script>
 export default {
-  data() {
-    return {
-      mixer: null,
 
-      products: [
-        {
-          imgSrc: "/images/portfolio/1.jpg",
-          title: "Management Illustrations",
-          category: "graphics"
-        },
-        {
-          imgSrc: "/images/portfolio/2.jpg",
-          title: "Product Mockup",
-          category: "video"
-        },
-        {
-          imgSrc: "/images/portfolio/3.jpg",
-          title: "Constructions",
-          category: "book"
-        },
-        {
-          imgSrc: "/images/portfolio/4.jpg",
-          title: "Product Page",
-          category: "template"
-        },
-        {
-          imgSrc: "/images/portfolio/5.jpg",
-          title: "Interior Design",
-          category: "models"
-        },
-        {
-          imgSrc: "/images/portfolio/6.jpg",
-          title: "Digital Marketing Hacks",
-          category: "book"
-        },
-      ]
+
+  props: {
+    products: {
+      type: Array,
+      required: true
     }
   },
 

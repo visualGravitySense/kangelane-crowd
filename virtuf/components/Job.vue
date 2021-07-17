@@ -7,7 +7,7 @@
             <div class="portfolio-tab-content">
               <div class="thumb">
 <!--                <img src="/images/portfolio/tab-b1.jpg" alt="image">-->
-                <img :src="`http://localhost:1337${post.imgSrc.url}`" :alt="post.title">
+                <img :src="`http://localhost:1337${post.titleImg.url}`" :alt="post.title">
 
               </div>
               <div class="portfolio-info-list">

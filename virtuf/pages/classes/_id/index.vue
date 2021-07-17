@@ -7,8 +7,6 @@
 
     <PageTitle :title="blog.name" breadcrumbTitle="Classes"  />
 
-<!--    <NewProduct />-->
-
     <CourseDetailsWrapper1  :blog="blog"/>
 
     <ContactDevider/>
@@ -33,7 +31,7 @@ export default {
     OffCanvasMobileMenu: () => import('@/components/OffCanvasMobileMenu'),
     PageTitle: () => import('@/components/PageTitle'),
     CourseDetailsWrapper1: () => import('@/components/CourseDetailsWrapper1'),
-    NewProduct: () => import('@/components/Market/NewProduct'),
+    Products: () => import('@/components/Market/Products'),
     ContactDevider: () => import('@/components/ContactDevider'),
     Footer: () => import('@/components/Footer'),
   },
@@ -49,11 +47,14 @@ export default {
 
 
   async asyncData (context) {
-    let [blog] = await Promise.all([
-      axios.get(`http://localhost:1337/articles/${context.params.id}`)
+    let [blog, products] = await Promise.all([
+      axios.get(`http://localhost:1337/articles/${context.params.id}`),
+      axios.get(`http://localhost:1337/articles/`)
+
     ])
     return {
-      blog: blog.data
+      blog: blog.data,
+      products: products.data
     }
   },
 

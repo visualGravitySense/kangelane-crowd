@@ -7,8 +7,9 @@
 
     <PageTitleClasses title="Marketplace" breadcrumbTitle="Market" />
 
+    <products :products="products"/>
 <!--    <PortfolioWrapperClasses />-->
-    <PortfolioWrapperMarket />
+<!--    <PortfolioWrapperMarket />-->
 
     <ContactDevider />
 
@@ -25,14 +26,27 @@
 </template>
 
 <script>
+import axios from "axios";
+
 export default {
   components: {
     Header: () => import('@/components/Header'),
     OffCanvasMobileMenu: () => import('@/components/OffCanvasMobileMenu'),
     PageTitle: () => import('@/components/PageTitle'),
+    Products: () => import('@/components/Market/Products'),
     PortfolioWrapperMarket: () => import('@/components/PortfolioWrapperMarket'),
     ContactDevider: () => import('@/components/ContactDevider'),
     Footer: () => import('@/components/Footer'),
+  },
+
+  async asyncData (context) {
+    let [products] = await Promise.all([
+      axios.get(`http://localhost:1337/markets/`)
+
+    ])
+    return {
+      products: products.data
+    }
   },
 
   head() {

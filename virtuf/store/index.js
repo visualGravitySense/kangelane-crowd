@@ -42,7 +42,7 @@ export const actions = {
   nuxtServerInit ({commit}, contex) {
     return axios.get('http://localhost:1337/articles')
       .then(res => {
-        console.log(res)
+        // console.log(res)
         // Resolve problem with post id on Firebase backend
         const postsArray = []
         for (let key in res.data) {

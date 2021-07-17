@@ -3,9 +3,9 @@
 
     <Header />
 
-    <PageTitle title="Job Offer" breadcrumbTitle="Job" />
+    <PageTitle :title="post.title" :breadcrumbTitle="post.category" />
 
-    <job :post="post"/>
+    <product :post="post"/>
 
 
     <ContactDevider />
@@ -28,7 +28,7 @@ export default {
   components: {
     Header: () => import('@/components/Header'),
     PageTitle: () => import('@/components/PageTitle'),
-    job: () => import('@/components/Job'),
+    Product: () => import('@/components/Product'),
     ContactDevider: () => import('@/components/ContactDevider'),
     Footer: () => import('@/components/Footer'),
     // newComment: () => import('@/components/NewComment'),
@@ -37,7 +37,7 @@ export default {
 
   async asyncData (context) {
     let [post] = await Promise.all([
-      axios.get(`http://localhost:1337/jobs/${context.params.id}`)
+      axios.get(`http://localhost:1337/markets/${context.params.id}`)
     ])
     return {
       post: post.data
