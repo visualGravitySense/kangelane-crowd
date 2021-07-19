@@ -1,3 +1,8 @@
+<!-- TODO Commits Every day not all day! -->
+<!-- TODO Payments interfaces from Strapi e-commerce template -->
+<!-- TODO Automation. Instagram Bots -->
+<!-- TODO How Make Own Course >> Courses/Items/Prints for sale -->
+
 <template>
     <div class="main-container">
 
